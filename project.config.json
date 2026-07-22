@@ -4,8 +4,8 @@
   "englishTitle": "Taiwan Fagaceae",
   "repositoryName": "Taiwan-Fagaceae",
   "repositoryNameSource": "folder",
-  "version": "0.2.0",
-  "status": "research-preview",
+  "version": "1.0.0",
+  "status": "published",
   "mode": "引導模式",
   "level": "國小",
   "grade": "五年級",
@@ -17,6 +17,6 @@
   "teacherGuide": true,
   "quizCount": 10,
   "resourceCount": 8,
-  "githubRepositoryUrl": "",
-  "githubPagesUrl": ""
+  "githubRepositoryUrl": "https://github.com/prayer168/Taiwan-Fagaceae",
+  "githubPagesUrl": "https://prayer168.github.io/Taiwan-Fagaceae/"
 }

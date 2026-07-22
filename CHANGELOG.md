@@ -2,6 +2,23 @@
 
 所有重要變更都會記錄在此文件。
 
+## [1.0.0] - 2026-07-22
+
+### Added
+
+- 新增 6 種歸化或栽培殼斗科植物附錄，與原生 46 筆分開呈現。
+- 新增網站圖示、Open Graph、中繼描述、正式網址與 GitHub Pages 設定。
+
+### Changed
+
+- 完成正式發布內容校訂、響應式版面、無障礙與互動驗收。
+- 專案狀態由研究預覽提升為正式發布。
+
+### Deployed
+
+- GitHub repository：<https://github.com/prayer168/Taiwan-Fagaceae>
+- GitHub Pages：<https://prayer168.github.io/Taiwan-Fagaceae/>
+
 ## [0.2.0] - 2026-07-22
 
 ### Added

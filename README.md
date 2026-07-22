@@ -52,11 +52,10 @@ npm run build
 
 ## 發布狀態
 
-- 目前版本：v0.2.0 research preview
-- GitHub repository：尚未建立
-- GitHub Pages：尚未部署
+- 目前版本：v1.0.0
+- 線上圖鑑：https://prayer168.github.io/Taiwan-Fagaceae/
+- GitHub repository：https://github.com/prayer168/Taiwan-Fagaceae
 
 ## 授權
 
-目前尚未指定整體公開授權。TaiCOL 文字資料依其 CC BY 4.0 條款引用；TBN 與其他來源依各自條款使用。Image 2.0 圖像及本站程式的授權將於正式發布前定稿。
-
+本站程式、整理內容與專案圖像目前保留所有權利；引用資料仍適用原資料提供者的授權及使用條款。TaiCOL 文字資料依 CC BY 4.0 條款引用，TBN 與其他來源依各自條款使用。
