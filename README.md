@@ -15,7 +15,7 @@
 
 ## 圖像聲明
 
-主視覺與四屬形態圖版由 Image 2.0 產生，標示為「教學重建圖」。物種卡與詳情中的形態圖由程式繪製，目的在引導觀察位置，皆不按比例，也不可作為單一鑑定證據。
+主視覺、四屬比較圖及 46 個原生分類群的獨立植物學圖版均由 Image 2.0 產生。每個物種的提示詞分別帶入已查核的樹形、葉片正反面、花序、殼斗及堅果特徵；網站明確標示為「寫實植物學重建圖」。圖像不按比例，也不可作為單一鑑定證據。
 
 生成提示詞記錄於 [`docs/image-prompts.md`](docs/image-prompts.md)。
 
@@ -52,7 +52,7 @@ npm run build
 
 ## 發布狀態
 
-- 目前版本：v1.0.0
+- 目前版本：v1.1.0
 - 線上圖鑑：https://prayer168.github.io/Taiwan-Fagaceae/
 - GitHub repository：https://github.com/prayer168/Taiwan-Fagaceae
 

@@ -2,6 +2,30 @@
 
 生成模式：Codex 內建 Image 2.0／`image_gen`。生成日期：2026-07-22。
 
+## v1.1.0 寫實圖像重製
+
+全站採 `photorealistic-natural` 與 `scientific-educational` 兩種用途。所有圖均禁止文字、標籤、浮水印、塑膠 CGI 質感與不符合殼斗科的複葉；物種圖不讓成熟果實與花出現在同一季節枝條上。
+
+### 物種圖版共用模板
+
+下列模板分別執行 46 次；每次以 `data/species.js` 中該分類群的 `habit`、`leaf`、`fruit`，以及所屬屬的 `tree`、`flower` 欄位替換大括號內容。
+
+```text
+Use case: scientific-educational
+Asset type: individual species plate for a Taiwan Fagaceae field guide
+Primary request: a scientifically plausible photorealistic natural-history specimen plate of {scientific name} ({Chinese name}), accurately portraying this exact Taiwan taxon rather than a generic oak
+Scene/backdrop: clean warm-gray museum specimen background; no text or labels
+Required subjects: a small full-tree field vignette showing {habit and tree}; an intact alternate-leaved twig; separate upper and underside leaf views showing exactly {leaf}; a flower specimen showing exactly {flower}; a mature attached fruit showing exactly {fruit}; an isolated nut and cupule section
+Style/medium: high-resolution photorealistic botanical plate combining field and macro specimen photography; documentary true color; not illustration
+Composition/framing: square plate, six clearly separated specimens, coherent relative scale, generous whitespace, nothing cropped
+Lighting/mood: diffuse neutral daylight, crisp microdetail
+Materials/textures: authentic venation and hairs, woody twig, tiny flowers, diagnostic cupule surface, matte nut shell, minor natural imperfections
+Constraints: every stated diagnostic feature is mandatory; anatomically plausible attachment; alternate simple leaves; one species only; flowers and mature fruit as separate seasonal specimens; exact concentric-ring versus imbricate-scale cupule; no generic lobed oak leaf unless explicitly described; shrub taxa must show shrub habit; no fused, duplicated or oversized organs; no text, label, ruler, logo or watermark
+Avoid: European or American park-oak substitution, horse chestnut, fantasy plant, watercolor, drawing, CGI, plastic leaves, decorative symmetry
+```
+
+四屬比較圖的最終版另經一次精準編修：只把第四欄不合臺灣常見形態的歐美式深裂櫟葉，替換為革質、長橢圓至披針形、上半部疏鋸齒的葉片，並保留環紋殼斗及其餘三欄不變。
+
 ## 森林主視覺
 
 ```text
@@ -33,4 +57,3 @@ Color palette: accurate natural greens, warm nut browns, muted tan cupules, off-
 Constraints: anatomically plausible; flowers small, unshowy and without petals; leaves simple not compound; cupule and nut relationship clearly visible; exactly four specimen groups; no text, no letters, no numbers, no labels, no logos, no watermark
 Avoid: fantasy flowers, colorful petals, generic fruit, pine cones, duplicated organs, decorative insects, specimen pins, torn paper, drop shadows
 ```
-

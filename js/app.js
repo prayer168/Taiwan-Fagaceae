@@ -33,6 +33,16 @@ function escapeHtml(value = "") {
   return value.replace(/[&<>"]/g, (character) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[character]);
 }
 
+function speciesImagePath(item) {
+  const filename = item.sci.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+  return `./assets/images/species/${filename}.webp`;
+}
+
+function speciesImage(item, loading = "lazy") {
+  const alt = `Image 2.0 寫實植物學重建圖：${item.zh}（${item.sci}）的樹形、枝葉、葉片正反面、花序、殼斗與堅果。`;
+  return `<img src="${speciesImagePath(item)}" width="960" height="960" loading="${loading}" decoding="async" alt="${escapeHtml(alt)}">`;
+}
+
 function cupuleType(item) {
   if (item.genus === "Fagus") return "valved";
   if (item.genus === "Castanopsis") return item.sci === "Castanopsis uraiana" ? "scaled" : "spiny";
@@ -152,7 +162,7 @@ function render() {
   count.textContent = String(items.length);
   empty.hidden = items.length !== 0;
   grid.innerHTML = items.map((item) => `<button class="species-card" type="button" data-species="${escapeHtml(item.sci)}" aria-label="查看${escapeHtml(item.zh)}詳情">
-    <span class="card-visual">${botanicalSvg(item)}</span>
+    <span class="card-visual">${speciesImage(item)}</span>
     <span class="card-body">
       <span class="card-meta"><span>${escapeHtml(item.genusZh)}${item.endemic ? "・臺灣特有" : ""}</span><span class="risk" data-risk="${item.red}">${riskLabel[item.red]}</span></span>
       <h3>${escapeHtml(item.zh)}</h3>
@@ -168,7 +178,7 @@ function showDetails(item, trigger) {
   const profile = genusProfiles[item.genus];
   const englishNote = item.verified ? "英名來源：GBIF 英文俗名資料" : "描述性英文對照，非廣泛公認的標準俗名";
   dialogContent.innerHTML = `<div class="dialog-hero">
-    <div class="dialog-visual">${botanicalSvg(item, true)}</div>
+    <figure class="dialog-visual">${speciesImage(item, "eager")}<figcaption>Image 2.0 寫實植物學重建圖・請以文字特徵與實體標本交叉鑑定</figcaption></figure>
     <div class="dialog-title">
       <p class="kicker">${escapeHtml(item.genusZh)}・FAGACEAE</p>
       <h2 id="dialog-title">${escapeHtml(item.zh)}</h2>
@@ -178,14 +188,14 @@ function showDetails(item, trigger) {
     </div>
   </div>
   <div class="organ-grid">
-    <article class="organ"><div class="organ-icon">${treeSvg(item)}</div><div><h3>完整樹形</h3><p>${escapeHtml(item.habit)}。${escapeHtml(profile.tree)}</p></div></article>
-    <article class="organ"><div class="organ-icon">${leafSvg(item)}</div><div><h3>葉片形態</h3><p>${escapeHtml(item.leaf)}</p></div></article>
-    <article class="organ"><div class="organ-icon">${fruitSvg(item)}</div><div><h3>殼斗與種子</h3><p>${escapeHtml(item.fruit)}成熟種子通常無胚乳，具有兩枚肉質子葉。</p></div></article>
-    <article class="organ"><div class="organ-icon">${flowerSvg(item)}</div><div><h3>花與花序</h3><p>${escapeHtml(profile.flower)}</p></div></article>
+    <article class="organ"><div><h3>完整樹形</h3><p>${escapeHtml(item.habit)}。${escapeHtml(profile.tree)}</p></div></article>
+    <article class="organ"><div><h3>葉片形態</h3><p>${escapeHtml(item.leaf)}</p></div></article>
+    <article class="organ"><div><h3>殼斗與種子</h3><p>${escapeHtml(item.fruit)}成熟種子通常無胚乳，具有兩枚肉質子葉。</p></div></article>
+    <article class="organ"><div><h3>花與花序</h3><p>${escapeHtml(profile.flower)}</p></div></article>
   </div>
   <div class="detail-foot">
     <div><p><strong>科別：</strong>殼斗科 Fagaceae</p><p><strong>屬名：</strong>${escapeHtml(item.genusZh)} <i>${escapeHtml(item.genus)}</i></p>${item.alias ? `<p><strong>異名／舊處理：</strong>${escapeHtml(item.alias)}</p>` : ""}</div>
-    <div><p>形態導覽圖是程式示意，不按比例；文字摘要依植物誌與林試所資料整理。</p><p><a href="https://www.tbn.org.tw/api/v25/taxon?uuid=${item.uuid}" target="_blank" rel="noreferrer">開啟 TBN 原始分類資料 ↗</a></p></div>
+    <div><p>圖版由 Image 2.0 依本站查核特徵重建，並非野外照片，也不按比例；文字摘要依植物誌與林試所資料整理。</p><p><a href="https://www.tbn.org.tw/api/v25/taxon?uuid=${item.uuid}" target="_blank" rel="noreferrer">開啟 TBN 原始分類資料 ↗</a></p></div>
   </div>`;
   dialog.showModal();
   closeButton.focus();

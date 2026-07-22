@@ -109,7 +109,7 @@ h1, h2, h3, p, dl, figure { margin-top: 0; }
 .species-card { position: relative; min-height: 370px; display: flex; flex-direction: column; overflow: hidden; border: 0; padding: 0; text-align: left; color: white; background: #1a4437; cursor: pointer; }
 .species-card:hover .card-visual { transform: scale(1.025); }
 .card-visual { height: 180px; display: grid; place-items: center; overflow: hidden; background: #e5e0cf; transition: transform 240ms ease; }
-.card-visual svg { width: 100%; height: 100%; }
+.card-visual img { width: 100%; height: 100%; object-fit: cover; }
 .card-body { flex: 1; display: flex; flex-direction: column; padding: 1.1rem; }
 .card-meta { display: flex; justify-content: space-between; gap: .5rem; color: rgb(255 255 255 / 55%); font-size: .64rem; letter-spacing: .08em; }
 .risk { border-radius: 999px; padding: .12rem .5rem; color: var(--forest); background: #cbd5c4; }
@@ -160,8 +160,9 @@ dialog { width: min(1080px, calc(100% - 2rem)); max-height: calc(100vh - 2rem); 
 dialog::backdrop { background: rgb(5 23 18 / 76%); backdrop-filter: blur(7px); }
 .dialog-close { position: sticky; z-index: 5; top: 1rem; float: right; width: 2.7rem; aspect-ratio: 1; margin: 1rem 1rem -3.7rem 0; border: 0; border-radius: 50%; color: white; background: rgb(11 46 37 / 80%); cursor: pointer; }
 .dialog-hero { display: grid; grid-template-columns: 1fr 1.2fr; min-height: 360px; }
-.dialog-visual { display: grid; place-items: center; padding: 2rem; background: #e5e0cf; }
-.dialog-visual svg { width: 100%; height: 100%; max-height: 320px; }
+.dialog-visual { position: relative; display: grid; place-items: center; margin: 0; overflow: hidden; background: #e5e0cf; }
+.dialog-visual img { width: 100%; height: 100%; min-height: 360px; object-fit: cover; }
+.dialog-visual figcaption { position: absolute; inset: auto .7rem .7rem; border-radius: .35rem; padding: .38rem .55rem; color: white; background: rgb(8 35 28 / 82%); font-size: .58rem; line-height: 1.45; }
 .dialog-title { padding: 4rem 3rem 2rem; color: white; background: var(--forest); }
 .dialog-title .kicker { color: var(--warm); }
 .dialog-title h2 { margin-bottom: .45rem; font-family: "Noto Serif TC", serif; font-size: clamp(2rem, 5vw, 4.2rem); }
@@ -170,9 +171,7 @@ dialog::backdrop { background: rgb(5 23 18 / 76%); backdrop-filter: blur(7px); }
 .dialog-badges { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: 2rem; }
 .dialog-badges span { border: 1px solid rgb(255 255 255 / 25%); border-radius: 999px; padding: .35rem .65rem; font-size: .7rem; }
 .organ-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1px; padding: 1px; background: var(--line); }
-.organ { display: grid; grid-template-columns: 115px 1fr; gap: 1.2rem; align-items: center; min-height: 210px; padding: 1.6rem; background: var(--paper); }
-.organ-icon { display: grid; width: 115px; aspect-ratio: 1; place-items: center; border-radius: 50%; background: #ecebdc; }
-.organ-icon svg { width: 86%; height: 86%; }
+.organ { display: grid; align-items: center; min-height: 170px; padding: 1.8rem 2rem; background: var(--paper); }
 .organ h3 { margin-bottom: .5rem; font-size: .83rem; letter-spacing: .12em; }
 .organ p { margin-bottom: 0; color: var(--ink-2); font-size: .82rem; line-height: 1.75; }
 .detail-foot { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; padding: 2rem 3rem 3rem; }
