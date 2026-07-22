@@ -15,9 +15,9 @@
 
 ## 圖像聲明
 
-主視覺、四屬比較圖及 46 個原生分類群的獨立植物學圖版均由 Image 2.0 產生。每個物種的提示詞分別帶入已查核的樹形、葉片正反面、花序、殼斗及堅果特徵；網站明確標示為「寫實植物學重建圖」。圖像不按比例，也不可作為單一鑑定證據。
+主視覺、四屬比較圖及 46 個原生分類群的獨立植物學圖版均由 Image 2.0 產生。v1.2.0 先以林業試驗所《台灣橡實森林博覽會》可直接對應的 44 個歷史分類群核對殼斗與堅果，再用 TBN 現行分類頁，以及 iNaturalist／TBN 的同種授權照片補足現行 46 筆口徑與實物外觀，並重建全部圖版。網站明確標示為「寫實植物學重建圖」；它們不是原始照片、不按比例，也不可作為單一鑑定證據。
 
-生成提示詞記錄於 [`docs/image-prompts.md`](docs/image-prompts.md)。
+生成提示詞記錄於 [`docs/image-prompts.md`](docs/image-prompts.md)，逐筆照片來源、攝影者與授權記錄於 [`docs/fruit-reference-manifest.json`](docs/fruit-reference-manifest.json)。
 
 ## 資料口徑
 
@@ -52,7 +52,7 @@ npm run build
 
 ## 發布狀態
 
-- 目前版本：v1.1.0
+- 目前版本：v1.2.0
 - 線上圖鑑：https://prayer168.github.io/Taiwan-Fagaceae/
 - GitHub repository：https://github.com/prayer168/Taiwan-Fagaceae
 

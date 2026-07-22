@@ -178,7 +178,7 @@ function showDetails(item, trigger) {
   const profile = genusProfiles[item.genus];
   const englishNote = item.verified ? "英名來源：GBIF 英文俗名資料" : "描述性英文對照，非廣泛公認的標準俗名";
   dialogContent.innerHTML = `<div class="dialog-hero">
-    <figure class="dialog-visual">${speciesImage(item, "eager")}<figcaption>Image 2.0 寫實植物學重建圖・請以文字特徵與實體標本交叉鑑定</figcaption></figure>
+    <figure class="dialog-visual">${speciesImage(item, "eager")}<figcaption>Image 2.0 依同種實物照片與林試所圖版重建・請以原始照片、文字特徵與標本交叉鑑定</figcaption></figure>
     <div class="dialog-title">
       <p class="kicker">${escapeHtml(item.genusZh)}・FAGACEAE</p>
       <h2 id="dialog-title">${escapeHtml(item.zh)}</h2>

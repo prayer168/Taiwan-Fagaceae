@@ -2,6 +2,16 @@
 
 生成模式：Codex 內建 Image 2.0／`image_gen`。生成日期：2026-07-22。
 
+## v1.2.0 殼斗與堅果實物校正版
+
+46 張圖版均以原有圖版作為第一張編修目標，只替換殼斗、堅果與種子區域。44 個可由林業試驗所《台灣橡實森林博覽會》直接對應的歷史分類群使用其同種圖版；現行分類差額以 TBN 現行頁及同種照片核對。可取得時，再加入 iNaturalist 上以「Fruits or Seeds」標註、具明確授權的同種照片；菱果石櫟使用 TBN 同種 CC BY 觀察照片。參考照片清單見 `fruit-reference-manifest.json`。
+
+```text
+Edit the FIRST image, which is the target botanical field-guide plate. Preserve the entire square composition, typography, tree habit, leaves, flowers, labels, spacing and background. Replace only every fruit, seed and cupule depiction. Follow the attached exact same-species field photographs and the official Taiwan Forestry Research Institute plate strictly. Reconstruct the diagnostic cupule coverage, scale/ring/spine structure, number of nuts per cupule, nut outline, apex and basal scar; do not substitute a generic acorn. Show attached and detached details that obey the same anatomy, with photorealistic true-color macro texture and natural maturity variation. Do not invent organs, decorative spines, extra nuts, labels or text.
+```
+
+圖像驗收以五項可觀察條件為準：殼斗包覆比例、殼斗表面構造、單殼斗堅果數、堅果輪廓與基部疤痕、果序著生方式。長尾栲、反刺栲、烏來柯與大葉石櫟因第一輪未完全符合上述條件，另由原始圖版重新生成並再次檢查。
+
 ## v1.1.0 寫實圖像重製
 
 全站採 `photorealistic-natural` 與 `scientific-educational` 兩種用途。所有圖均禁止文字、標籤、浮水印、塑膠 CGI 質感與不符合殼斗科的複葉；物種圖不讓成熟果實與花出現在同一季節枝條上。

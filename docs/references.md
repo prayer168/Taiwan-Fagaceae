@@ -27,6 +27,9 @@
 
 ## 圖像
 
-- `assets/images/fagaceae-forest-hero.png`：Image 2.0 教學重建圖。
-- `assets/images/fagaceae-four-genera-plate.png`：Image 2.0 教學重建圖。
-- 兩張圖均非野外鑑定照片；最終提示詞見 `docs/image-prompts.md`。
+- `assets/images/fagaceae-forest-hero-v2.webp`：Image 2.0 教學重建圖。
+- `assets/images/fagaceae-four-genera-plate-v2.webp`：Image 2.0 教學重建圖。
+- `assets/images/species/*.webp`：46 張 Image 2.0 物種圖版。v1.2.0 先依林試所《台灣橡實森林博覽會》可直接對應的 44 個歷史分類群核對，再以 TBN 現行名錄及 iNaturalist「Fruits or Seeds」同種觀察照片補足現行口徑；菱果石櫟另採 TBN 同種觀察紀錄。
+- iNaturalist API v1 與照片授權：<https://api.inaturalist.org/v2/docs/>；每張參考照片的觀察連結、攝影者、授權及原始圖片網址見 `docs/fruit-reference-manifest.json`。部分照片為 CC BY-NC，僅作形態查核與生成參考，網站未直接刊載原始照片。
+- TBN 菱果石櫟果實觀察（陳慧珠，CC BY）：<https://plant.tbn.org.tw/occurrence/b01a21ae-e075-47b3-ba4d-056cbac87edf>。
+- 所有 Image 2.0 圖均是依參考資料重建的合成圖，不是野外鑑定照片；最終提示詞與限制見 `docs/image-prompts.md`。

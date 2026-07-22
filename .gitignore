@@ -2,6 +2,7 @@ node_modules/
 dist/
 .vite/
 .tmp-research/
+.research-fruit-refs/
 assets/images/*-v2.png
 assets/images/species/*.png
 docs/image-refresh-desktop.png

@@ -1,0 +1,1992 @@
+{
+  "generatedAt": "2026-07-22T12:32:47.497Z",
+  "source": "iNaturalist API v1 supplementary same-taxon fruit/seed photo references",
+  "annotation": "Flowers and Fruits = Fruits or Seeds (term 12, value 14)",
+  "taxa": [
+    {
+      "scientificName": "Castanopsis chinensis",
+      "chineseName": "桂林栲",
+      "inaturalistTaxonId": 578738,
+      "inaturalistTaxonUrl": "https://www.inaturalist.org/taxa/578738",
+      "scope": "global",
+      "annotatedObservationCount": 2,
+      "status": "no-licensed-fruiting-reference",
+      "references": [],
+      "morphologyVerification": "TFRI 2012 historical plate where directly corresponding; current TBN taxonomy and exact-taxon observation photos where revised or split"
+    },
+    {
+      "scientificName": "Castanopsis eyrei",
+      "chineseName": "反刺栲",
+      "inaturalistTaxonId": 707478,
+      "inaturalistTaxonUrl": "https://www.inaturalist.org/taxa/707478",
+      "scope": "global",
+      "annotatedObservationCount": 4,
+      "status": "references-downloaded",
+      "references": [
+        {
+          "observationId": 318054507,
+          "observationUrl": "https://www.inaturalist.org/observations/318054507",
+          "observedOn": "2025-09-09",
+          "placeGuess": "Luxi County, Jiangxi, Pingxiang, Jiangxi, China",
+          "photoId": 574613557,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/574613557/large.jpg",
+          "license": "cc-by-nc",
+          "attribution": "(c) MP Zhou, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/castanopsis-eyrei/01-obs-318054507-photo-574613557.jpg"
+        },
+        {
+          "observationId": 318054507,
+          "observationUrl": "https://www.inaturalist.org/observations/318054507",
+          "observedOn": "2025-09-09",
+          "placeGuess": "Luxi County, Jiangxi, Pingxiang, Jiangxi, China",
+          "photoId": 574613571,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/574613571/large.jpg",
+          "license": "cc-by-nc",
+          "attribution": "(c) MP Zhou, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/castanopsis-eyrei/02-obs-318054507-photo-574613571.jpg"
+        },
+        {
+          "observationId": 318054507,
+          "observationUrl": "https://www.inaturalist.org/observations/318054507",
+          "observedOn": "2025-09-09",
+          "placeGuess": "Luxi County, Jiangxi, Pingxiang, Jiangxi, China",
+          "photoId": 574613533,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/574613533/large.jpg",
+          "license": "cc-by-nc",
+          "attribution": "(c) MP Zhou, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/castanopsis-eyrei/03-obs-318054507-photo-574613533.jpg"
+        },
+        {
+          "observationId": 318054502,
+          "observationUrl": "https://www.inaturalist.org/observations/318054502",
+          "observedOn": "2025-09-09",
+          "placeGuess": "Luxi County, Jiangxi, Pingxiang, Jiangxi, China",
+          "photoId": 574613499,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/574613499/large.jpg",
+          "license": "cc-by-nc",
+          "attribution": "(c) MP Zhou, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/castanopsis-eyrei/04-obs-318054502-photo-574613499.jpg"
+        }
+      ],
+      "morphologyVerification": "TFRI 2012 historical plate where directly corresponding; current TBN taxonomy and exact-taxon observation photos where revised or split"
+    },
+    {
+      "scientificName": "Castanopsis faberi",
+      "chineseName": "星刺栲",
+      "inaturalistTaxonId": 596523,
+      "inaturalistTaxonUrl": "https://www.inaturalist.org/taxa/596523",
+      "scope": "Taiwan",
+      "annotatedObservationCount": 6,
+      "status": "references-downloaded",
+      "references": [
+        {
+          "observationId": 184683081,
+          "observationUrl": "https://www.inaturalist.org/observations/184683081",
+          "observedOn": "2023-09-23",
+          "placeGuess": "臺灣島, 桃源區, KHH, TW",
+          "photoId": 322420519,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/322420519/large.jpg",
+          "license": "cc-by-nc",
+          "attribution": "(c) guanyuan8488, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/castanopsis-faberi/01-obs-184683081-photo-322420519.jpg"
+        },
+        {
+          "observationId": 16392744,
+          "observationUrl": "https://www.inaturalist.org/observations/16392744",
+          "observedOn": "2018-09-09",
+          "placeGuess": "605, 阿里山鄉, 台灣, TW",
+          "photoId": 24654639,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/24654639/large.jpg",
+          "license": "cc-by",
+          "attribution": "(c) Cheng-Tao Lin, some rights reserved (CC BY)",
+          "localPath": ".research-fruit-refs/castanopsis-faberi/02-obs-16392744-photo-24654639.jpg"
+        },
+        {
+          "observationId": 16392744,
+          "observationUrl": "https://www.inaturalist.org/observations/16392744",
+          "observedOn": "2018-09-09",
+          "placeGuess": "605, 阿里山鄉, 台灣, TW",
+          "photoId": 24654647,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/24654647/large.jpg",
+          "license": "cc-by",
+          "attribution": "(c) Cheng-Tao Lin, some rights reserved (CC BY)",
+          "localPath": ".research-fruit-refs/castanopsis-faberi/03-obs-16392744-photo-24654647.jpg"
+        },
+        {
+          "observationId": 16392744,
+          "observationUrl": "https://www.inaturalist.org/observations/16392744",
+          "observedOn": "2018-09-09",
+          "placeGuess": "605, 阿里山鄉, 台灣, TW",
+          "photoId": 24654628,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/24654628/large.jpg",
+          "license": "cc-by",
+          "attribution": "(c) Cheng-Tao Lin, some rights reserved (CC BY)",
+          "localPath": ".research-fruit-refs/castanopsis-faberi/04-obs-16392744-photo-24654628.jpg"
+        }
+      ],
+      "morphologyVerification": "TFRI 2012 historical plate where directly corresponding; current TBN taxonomy and exact-taxon observation photos where revised or split"
+    },
+    {
+      "scientificName": "Castanopsis fargesii",
+      "chineseName": "火燒栲",
+      "inaturalistTaxonId": 555764,
+      "inaturalistTaxonUrl": "https://www.inaturalist.org/taxa/555764",
+      "scope": "Taiwan",
+      "annotatedObservationCount": 10,
+      "status": "references-downloaded",
+      "references": [
+        {
+          "observationId": 19399067,
+          "observationUrl": "https://www.inaturalist.org/observations/19399067",
+          "observedOn": "2018-12-29",
+          "placeGuess": "555台灣南投縣魚池鄉日月潭",
+          "photoId": 29836375,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/29836375/large.jpeg",
+          "license": "cc-by-nc",
+          "attribution": "(c) ming110, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/castanopsis-fargesii/01-obs-19399067-photo-29836375.jpeg"
+        },
+        {
+          "observationId": 194178396,
+          "observationUrl": "https://www.inaturalist.org/observations/194178396",
+          "observedOn": "2023-12-16",
+          "placeGuess": "424台灣台中市和平區",
+          "photoId": 341251188,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/341251188/large.jpeg",
+          "license": "cc-by-nc",
+          "attribution": "(c) liushengyu, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/castanopsis-fargesii/02-obs-194178396-photo-341251188.jpeg"
+        },
+        {
+          "observationId": 248889470,
+          "observationUrl": "https://www.inaturalist.org/observations/248889470",
+          "observedOn": "2024-10-24",
+          "placeGuess": "555台灣南投縣魚池鄉向山",
+          "photoId": 444806453,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/444806453/large.jpg",
+          "license": "cc-by-nc",
+          "attribution": "(c) lubukun, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/castanopsis-fargesii/03-obs-248889470-photo-444806453.jpg"
+        },
+        {
+          "observationId": 248889470,
+          "observationUrl": "https://www.inaturalist.org/observations/248889470",
+          "observedOn": "2024-10-24",
+          "placeGuess": "555台灣南投縣魚池鄉向山",
+          "photoId": 444807723,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/444807723/large.jpg",
+          "license": "cc-by-nc",
+          "attribution": "(c) lubukun, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/castanopsis-fargesii/04-obs-248889470-photo-444807723.jpg"
+        }
+      ],
+      "morphologyVerification": "TFRI 2012 historical plate where directly corresponding; current TBN taxonomy and exact-taxon observation photos where revised or split"
+    },
+    {
+      "scientificName": "Castanopsis formosana",
+      "chineseName": "臺灣栲",
+      "inaturalistTaxonId": 736678,
+      "inaturalistTaxonUrl": "https://www.inaturalist.org/taxa/736678",
+      "scope": "Taiwan",
+      "annotatedObservationCount": 10,
+      "status": "references-downloaded",
+      "references": [
+        {
+          "observationId": 39070321,
+          "observationUrl": "https://www.inaturalist.org/observations/39070321",
+          "observedOn": "2020-02-23",
+          "placeGuess": "851台灣高雄市茂林區高雄市茂林區茂林巷125號",
+          "photoId": 61994965,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/61994965/large.jpeg",
+          "license": "cc-by-nc",
+          "attribution": "(c) 吳佳蓉, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/castanopsis-formosana/01-obs-39070321-photo-61994965.jpeg"
+        },
+        {
+          "observationId": 39070321,
+          "observationUrl": "https://www.inaturalist.org/observations/39070321",
+          "observedOn": "2020-02-23",
+          "placeGuess": "851台灣高雄市茂林區高雄市茂林區茂林巷125號",
+          "photoId": 61994970,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/61994970/large.jpeg",
+          "license": "cc-by-nc",
+          "attribution": "(c) 吳佳蓉, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/castanopsis-formosana/02-obs-39070321-photo-61994970.jpeg"
+        },
+        {
+          "observationId": 39070321,
+          "observationUrl": "https://www.inaturalist.org/observations/39070321",
+          "observedOn": "2020-02-23",
+          "placeGuess": "851台灣高雄市茂林區高雄市茂林區茂林巷125號",
+          "photoId": 61994982,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/61994982/large.jpeg",
+          "license": "cc-by-nc",
+          "attribution": "(c) 吳佳蓉, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/castanopsis-formosana/03-obs-39070321-photo-61994982.jpeg"
+        },
+        {
+          "observationId": 39070321,
+          "observationUrl": "https://www.inaturalist.org/observations/39070321",
+          "observedOn": "2020-02-23",
+          "placeGuess": "851台灣高雄市茂林區高雄市茂林區茂林巷125號",
+          "photoId": 61994993,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/61994993/large.jpeg",
+          "license": "cc-by-nc",
+          "attribution": "(c) 吳佳蓉, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/castanopsis-formosana/04-obs-39070321-photo-61994993.jpeg"
+        }
+      ],
+      "morphologyVerification": "TFRI 2012 historical plate where directly corresponding; current TBN taxonomy and exact-taxon observation photos where revised or split"
+    },
+    {
+      "scientificName": "Castanopsis indica",
+      "chineseName": "印度栲",
+      "inaturalistTaxonId": 341063,
+      "inaturalistTaxonUrl": "https://www.inaturalist.org/taxa/341063",
+      "scope": "Taiwan",
+      "annotatedObservationCount": 10,
+      "status": "references-downloaded",
+      "references": [
+        {
+          "observationId": 195046546,
+          "observationUrl": "https://www.inaturalist.org/observations/195046546",
+          "observedOn": "2023-12-25",
+          "placeGuess": "Kaohsiung, TW-KH, TW",
+          "photoId": 343028721,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/343028721/large.jpeg",
+          "license": "cc-by-nc",
+          "attribution": "(c) Chen Shu, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/castanopsis-indica/01-obs-195046546-photo-343028721.jpeg"
+        },
+        {
+          "observationId": 358572110,
+          "observationUrl": "https://www.inaturalist.org/observations/358572110",
+          "observedOn": "2026-05-01",
+          "placeGuess": "Taiwan, TW",
+          "photoId": 654141242,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/654141242/large.jpg",
+          "license": "cc-by-sa",
+          "attribution": "(c) vrxz, some rights reserved (CC BY-SA)",
+          "localPath": ".research-fruit-refs/castanopsis-indica/02-obs-358572110-photo-654141242.jpg"
+        },
+        {
+          "observationId": 358572110,
+          "observationUrl": "https://www.inaturalist.org/observations/358572110",
+          "observedOn": "2026-05-01",
+          "placeGuess": "Taiwan, TW",
+          "photoId": 654141309,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/654141309/large.jpg",
+          "license": "cc-by-sa",
+          "attribution": "(c) vrxz, some rights reserved (CC BY-SA)",
+          "localPath": ".research-fruit-refs/castanopsis-indica/03-obs-358572110-photo-654141309.jpg"
+        },
+        {
+          "observationId": 39130417,
+          "observationUrl": "https://www.inaturalist.org/observations/39130417",
+          "observedOn": "2020-02-22",
+          "placeGuess": "Taiwan",
+          "photoId": 62074068,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/62074068/large.jpeg",
+          "license": "cc-by-nc",
+          "attribution": "(c) Chen Shu, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/castanopsis-indica/04-obs-39130417-photo-62074068.jpeg"
+        }
+      ],
+      "morphologyVerification": "TFRI 2012 historical plate where directly corresponding; current TBN taxonomy and exact-taxon observation photos where revised or split"
+    },
+    {
+      "scientificName": "Castanopsis kawakamii",
+      "chineseName": "大葉栲",
+      "inaturalistTaxonId": 190357,
+      "inaturalistTaxonUrl": "https://www.inaturalist.org/taxa/190357",
+      "scope": "Taiwan",
+      "annotatedObservationCount": 11,
+      "status": "references-downloaded",
+      "references": [
+        {
+          "observationId": 248317623,
+          "observationUrl": "https://www.inaturalist.org/observations/248317623",
+          "observedOn": "2024-10-20",
+          "placeGuess": "Taiwan",
+          "photoId": 443656629,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/443656629/large.jpeg",
+          "license": "cc-by-nc",
+          "attribution": "(c) Allen Chen, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/castanopsis-kawakamii/01-obs-248317623-photo-443656629.jpeg"
+        },
+        {
+          "observationId": 248317623,
+          "observationUrl": "https://www.inaturalist.org/observations/248317623",
+          "observedOn": "2024-10-20",
+          "placeGuess": "Taiwan",
+          "photoId": 443656635,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/443656635/large.jpeg",
+          "license": "cc-by-nc",
+          "attribution": "(c) Allen Chen, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/castanopsis-kawakamii/02-obs-248317623-photo-443656635.jpeg"
+        },
+        {
+          "observationId": 248317623,
+          "observationUrl": "https://www.inaturalist.org/observations/248317623",
+          "observedOn": "2024-10-20",
+          "placeGuess": "Taiwan",
+          "photoId": 443656637,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/443656637/large.jpeg",
+          "license": "cc-by-nc",
+          "attribution": "(c) Allen Chen, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/castanopsis-kawakamii/03-obs-248317623-photo-443656637.jpeg"
+        },
+        {
+          "observationId": 248317623,
+          "observationUrl": "https://www.inaturalist.org/observations/248317623",
+          "observedOn": "2024-10-20",
+          "placeGuess": "Taiwan",
+          "photoId": 443656656,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/443656656/large.jpeg",
+          "license": "cc-by-nc",
+          "attribution": "(c) Allen Chen, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/castanopsis-kawakamii/04-obs-248317623-photo-443656656.jpeg"
+        }
+      ],
+      "morphologyVerification": "TFRI 2012 historical plate where directly corresponding; current TBN taxonomy and exact-taxon observation photos where revised or split"
+    },
+    {
+      "scientificName": "Castanopsis kusanoi",
+      "chineseName": "細刺栲",
+      "status": "no-exact-inaturalist-taxon",
+      "references": [],
+      "morphologyVerification": "TFRI 2012 historical plate where directly corresponding; current TBN taxonomy and exact-taxon observation photos where revised or split"
+    },
+    {
+      "scientificName": "Castanopsis uraiana",
+      "chineseName": "烏來柯",
+      "inaturalistTaxonId": 909863,
+      "inaturalistTaxonUrl": "https://www.inaturalist.org/taxa/909863",
+      "scope": "Taiwan",
+      "annotatedObservationCount": 12,
+      "status": "references-downloaded",
+      "references": [
+        {
+          "observationId": 263445426,
+          "observationUrl": "https://www.inaturalist.org/observations/263445426",
+          "observedOn": "2025-03-01",
+          "placeGuess": "西湖渡假村, 三義鄉, 苗栗縣, TW",
+          "photoId": 473275760,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/473275760/large.jpg",
+          "license": "cc-by-nc",
+          "attribution": "(c) 張睿引, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/castanopsis-uraiana/01-obs-263445426-photo-473275760.jpg"
+        },
+        {
+          "observationId": 263445426,
+          "observationUrl": "https://www.inaturalist.org/observations/263445426",
+          "observedOn": "2025-03-01",
+          "placeGuess": "西湖渡假村, 三義鄉, 苗栗縣, TW",
+          "photoId": 473275779,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/473275779/large.jpg",
+          "license": "cc-by-nc",
+          "attribution": "(c) 張睿引, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/castanopsis-uraiana/02-obs-263445426-photo-473275779.jpg"
+        },
+        {
+          "observationId": 263445426,
+          "observationUrl": "https://www.inaturalist.org/observations/263445426",
+          "observedOn": "2025-03-01",
+          "placeGuess": "西湖渡假村, 三義鄉, 苗栗縣, TW",
+          "photoId": 473275795,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/473275795/large.jpg",
+          "license": "cc-by-nc",
+          "attribution": "(c) 張睿引, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/castanopsis-uraiana/03-obs-263445426-photo-473275795.jpg"
+        },
+        {
+          "observationId": 263445426,
+          "observationUrl": "https://www.inaturalist.org/observations/263445426",
+          "observedOn": "2025-03-01",
+          "placeGuess": "西湖渡假村, 三義鄉, 苗栗縣, TW",
+          "photoId": 473275817,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/473275817/large.jpg",
+          "license": "cc-by-nc",
+          "attribution": "(c) 張睿引, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/castanopsis-uraiana/04-obs-263445426-photo-473275817.jpg"
+        }
+      ],
+      "morphologyVerification": "TFRI 2012 historical plate where directly corresponding; current TBN taxonomy and exact-taxon observation photos where revised or split"
+    },
+    {
+      "scientificName": "Castanopsis carlesii",
+      "chineseName": "長尾栲",
+      "inaturalistTaxonId": 556549,
+      "inaturalistTaxonUrl": "https://www.inaturalist.org/taxa/556549",
+      "scope": "Taiwan",
+      "annotatedObservationCount": 44,
+      "status": "references-downloaded",
+      "references": [
+        {
+          "observationId": 141355604,
+          "observationUrl": "https://www.inaturalist.org/observations/141355604",
+          "observedOn": "2022-11-06",
+          "placeGuess": "台灣台北",
+          "photoId": 242144987,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/242144987/large.png",
+          "license": "cc-by-nc",
+          "attribution": "(c) Wolli Huang, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/castanopsis-carlesii/01-obs-141355604-photo-242144987.png"
+        },
+        {
+          "observationId": 143028708,
+          "observationUrl": "https://www.inaturalist.org/observations/143028708",
+          "observedOn": "2022-11-27",
+          "placeGuess": "石碇區, TW",
+          "photoId": 245282029,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/245282029/large.jpg",
+          "license": "cc-by-nc",
+          "attribution": "(c) huanghuai, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/castanopsis-carlesii/02-obs-143028708-photo-245282029.jpg"
+        },
+        {
+          "observationId": 143028708,
+          "observationUrl": "https://www.inaturalist.org/observations/143028708",
+          "observedOn": "2022-11-27",
+          "placeGuess": "石碇區, TW",
+          "photoId": 245282054,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/245282054/large.jpg",
+          "license": "cc-by-nc",
+          "attribution": "(c) huanghuai, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/castanopsis-carlesii/03-obs-143028708-photo-245282054.jpg"
+        },
+        {
+          "observationId": 248691972,
+          "observationUrl": "https://www.inaturalist.org/observations/248691972",
+          "observedOn": "2024-10-19",
+          "placeGuess": "947台灣屏東縣滿州鄉",
+          "photoId": 444417217,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/444417217/large.jpg",
+          "license": "cc-by-nc-sa",
+          "attribution": "(c) 鳥松の熊, some rights reserved (CC BY-NC-SA)",
+          "localPath": ".research-fruit-refs/castanopsis-carlesii/04-obs-248691972-photo-444417217.jpg"
+        }
+      ],
+      "morphologyVerification": "TFRI 2012 historical plate where directly corresponding; current TBN taxonomy and exact-taxon observation photos where revised or split"
+    },
+    {
+      "scientificName": "Fagus hayatae",
+      "chineseName": "臺灣水青岡",
+      "inaturalistTaxonId": 192372,
+      "inaturalistTaxonUrl": "https://www.inaturalist.org/taxa/192372",
+      "scope": "Taiwan",
+      "annotatedObservationCount": 2,
+      "status": "references-downloaded",
+      "references": [
+        {
+          "observationId": 63945762,
+          "observationUrl": "https://www.inaturalist.org/observations/63945762",
+          "observedOn": "2020-11-01",
+          "placeGuess": "272台灣宜蘭縣南澳鄉金洋村",
+          "photoId": 102715729,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/102715729/large.jpeg",
+          "license": "cc-by-nc",
+          "attribution": "(c) 傻子, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/fagus-hayatae/01-obs-63945762-photo-102715729.jpeg"
+        },
+        {
+          "observationId": 63945762,
+          "observationUrl": "https://www.inaturalist.org/observations/63945762",
+          "observedOn": "2020-11-01",
+          "placeGuess": "272台灣宜蘭縣南澳鄉金洋村",
+          "photoId": 102715738,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/102715738/large.jpeg",
+          "license": "cc-by-nc",
+          "attribution": "(c) 傻子, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/fagus-hayatae/02-obs-63945762-photo-102715738.jpeg"
+        },
+        {
+          "observationId": 63945762,
+          "observationUrl": "https://www.inaturalist.org/observations/63945762",
+          "observedOn": "2020-11-01",
+          "placeGuess": "272台灣宜蘭縣南澳鄉金洋村",
+          "photoId": 102715746,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/102715746/large.jpeg",
+          "license": "cc-by-nc",
+          "attribution": "(c) 傻子, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/fagus-hayatae/03-obs-63945762-photo-102715746.jpeg"
+        },
+        {
+          "observationId": 63945762,
+          "observationUrl": "https://www.inaturalist.org/observations/63945762",
+          "observedOn": "2020-11-01",
+          "placeGuess": "272台灣宜蘭縣南澳鄉金洋村",
+          "photoId": 102715750,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/102715750/large.jpeg",
+          "license": "cc-by-nc",
+          "attribution": "(c) 傻子, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/fagus-hayatae/04-obs-63945762-photo-102715750.jpeg"
+        }
+      ],
+      "morphologyVerification": "TFRI 2012 historical plate where directly corresponding; current TBN taxonomy and exact-taxon observation photos where revised or split"
+    },
+    {
+      "scientificName": "Lithocarpus amygdalifolius",
+      "chineseName": "杏葉石櫟",
+      "inaturalistTaxonId": 736679,
+      "inaturalistTaxonUrl": "https://www.inaturalist.org/taxa/736679",
+      "scope": "Taiwan",
+      "annotatedObservationCount": 16,
+      "status": "references-downloaded",
+      "references": [
+        {
+          "observationId": 34339047,
+          "observationUrl": "https://www.inaturalist.org/observations/34339047",
+          "observedOn": "2019-10-12",
+          "placeGuess": "司馬限林道, 泰安鄉, , TW",
+          "photoId": 54030062,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/54030062/large.jpg",
+          "license": "cc-by-nc",
+          "attribution": "(c) capriccioo, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/lithocarpus-amygdalifolius/01-obs-34339047-photo-54030062.jpg"
+        },
+        {
+          "observationId": 34339047,
+          "observationUrl": "https://www.inaturalist.org/observations/34339047",
+          "observedOn": "2019-10-12",
+          "placeGuess": "司馬限林道, 泰安鄉, , TW",
+          "photoId": 54030079,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/54030079/large.jpg",
+          "license": "cc-by-nc",
+          "attribution": "(c) capriccioo, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/lithocarpus-amygdalifolius/02-obs-34339047-photo-54030079.jpg"
+        },
+        {
+          "observationId": 19692768,
+          "observationUrl": "https://www.inaturalist.org/observations/19692768",
+          "observedOn": "2019-01-13",
+          "placeGuess": "台灣南投縣西巒大山北稜登山步道",
+          "photoId": 30334695,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/30334695/large.jpeg",
+          "license": "cc-by-nc",
+          "attribution": "(c) 謝忠良, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/lithocarpus-amygdalifolius/03-obs-19692768-photo-30334695.jpeg"
+        },
+        {
+          "observationId": 19692768,
+          "observationUrl": "https://www.inaturalist.org/observations/19692768",
+          "observedOn": "2019-01-13",
+          "placeGuess": "台灣南投縣西巒大山北稜登山步道",
+          "photoId": 30334701,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/30334701/large.jpeg",
+          "license": "cc-by-nc",
+          "attribution": "(c) 謝忠良, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/lithocarpus-amygdalifolius/04-obs-19692768-photo-30334701.jpeg"
+        }
+      ],
+      "morphologyVerification": "TFRI 2012 historical plate where directly corresponding; current TBN taxonomy and exact-taxon observation photos where revised or split"
+    },
+    {
+      "scientificName": "Lithocarpus chiaratuangensis",
+      "chineseName": "大武石櫟",
+      "status": "no-exact-inaturalist-taxon",
+      "references": [],
+      "morphologyVerification": "TFRI 2012 historical plate where directly corresponding; current TBN taxonomy and exact-taxon observation photos where revised or split"
+    },
+    {
+      "scientificName": "Lithocarpus corneus",
+      "chineseName": "後大埔石櫟",
+      "inaturalistTaxonId": 558210,
+      "inaturalistTaxonUrl": "https://www.inaturalist.org/taxa/558210",
+      "scope": "Taiwan",
+      "annotatedObservationCount": 5,
+      "status": "references-downloaded",
+      "references": [
+        {
+          "observationId": 137140206,
+          "observationUrl": "https://www.inaturalist.org/observations/137140206",
+          "observedOn": "2022-09-06",
+          "placeGuess": "台灣屏東縣來義鄉來社山",
+          "photoId": 234162907,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/234162907/large.jpg",
+          "license": "cc-by-nc",
+          "attribution": "(c) 李先祐 (Hsien-Yu Lee), some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/lithocarpus-corneus/01-obs-137140206-photo-234162907.jpg"
+        },
+        {
+          "observationId": 29059090,
+          "observationUrl": "https://www.inaturalist.org/observations/29059090",
+          "observedOn": "2019-07-15",
+          "placeGuess": "台灣台南市",
+          "photoId": 45334569,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/45334569/large.jpeg",
+          "license": "cc-by-sa",
+          "attribution": "(c) fagushayata, some rights reserved (CC BY-SA)",
+          "localPath": ".research-fruit-refs/lithocarpus-corneus/02-obs-29059090-photo-45334569.jpeg"
+        },
+        {
+          "observationId": 29059090,
+          "observationUrl": "https://www.inaturalist.org/observations/29059090",
+          "observedOn": "2019-07-15",
+          "placeGuess": "台灣台南市",
+          "photoId": 45334575,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/45334575/large.jpeg",
+          "license": "cc-by-sa",
+          "attribution": "(c) fagushayata, some rights reserved (CC BY-SA)",
+          "localPath": ".research-fruit-refs/lithocarpus-corneus/03-obs-29059090-photo-45334575.jpeg"
+        },
+        {
+          "observationId": 29059090,
+          "observationUrl": "https://www.inaturalist.org/observations/29059090",
+          "observedOn": "2019-07-15",
+          "placeGuess": "台灣台南市",
+          "photoId": 45334581,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/45334581/large.jpeg",
+          "license": "cc-by-sa",
+          "attribution": "(c) fagushayata, some rights reserved (CC BY-SA)",
+          "localPath": ".research-fruit-refs/lithocarpus-corneus/04-obs-29059090-photo-45334581.jpeg"
+        }
+      ],
+      "morphologyVerification": "TFRI 2012 historical plate where directly corresponding; current TBN taxonomy and exact-taxon observation photos where revised or split"
+    },
+    {
+      "scientificName": "Lithocarpus dodonaeifolius",
+      "chineseName": "柳葉石櫟",
+      "inaturalistTaxonId": 736680,
+      "inaturalistTaxonUrl": "https://www.inaturalist.org/taxa/736680",
+      "scope": "Taiwan",
+      "annotatedObservationCount": 1,
+      "status": "references-downloaded",
+      "references": [
+        {
+          "observationId": 35304875,
+          "observationUrl": "https://www.inaturalist.org/observations/35304875",
+          "observedOn": "2014-01-14",
+          "placeGuess": "Taiwan, TW",
+          "photoId": 55657097,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/55657097/large.jpeg",
+          "license": "cc-by-nc",
+          "attribution": "(c) 眼子菜, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/lithocarpus-dodonaeifolius/01-obs-35304875-photo-55657097.jpeg"
+        }
+      ],
+      "morphologyVerification": "TFRI 2012 historical plate where directly corresponding; current TBN taxonomy and exact-taxon observation photos where revised or split"
+    },
+    {
+      "scientificName": "Lithocarpus formosanus",
+      "chineseName": "臺灣石櫟",
+      "inaturalistTaxonId": 736681,
+      "inaturalistTaxonUrl": "https://www.inaturalist.org/taxa/736681",
+      "scope": "global",
+      "annotatedObservationCount": 0,
+      "status": "no-licensed-fruiting-reference",
+      "references": [],
+      "morphologyVerification": "TFRI 2012 historical plate where directly corresponding; current TBN taxonomy and exact-taxon observation photos where revised or split"
+    },
+    {
+      "scientificName": "Lithocarpus glaber",
+      "chineseName": "子彈石櫟",
+      "inaturalistTaxonId": 428434,
+      "inaturalistTaxonUrl": "https://www.inaturalist.org/taxa/428434",
+      "scope": "Taiwan",
+      "annotatedObservationCount": 12,
+      "status": "references-downloaded",
+      "references": [
+        {
+          "observationId": 140504954,
+          "observationUrl": "https://www.inaturalist.org/observations/140504954",
+          "observedOn": "2022-10-30",
+          "placeGuess": "台灣南投縣",
+          "photoId": 240514627,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/240514627/large.jpeg",
+          "license": "cc-by-nc",
+          "attribution": "(c) 羅元甫, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/lithocarpus-glaber/01-obs-140504954-photo-240514627.jpeg"
+        },
+        {
+          "observationId": 140504954,
+          "observationUrl": "https://www.inaturalist.org/observations/140504954",
+          "observedOn": "2022-10-30",
+          "placeGuess": "台灣南投縣",
+          "photoId": 240514607,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/240514607/large.jpeg",
+          "license": "cc-by-nc",
+          "attribution": "(c) 羅元甫, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/lithocarpus-glaber/02-obs-140504954-photo-240514607.jpeg"
+        },
+        {
+          "observationId": 140504954,
+          "observationUrl": "https://www.inaturalist.org/observations/140504954",
+          "observedOn": "2022-10-30",
+          "placeGuess": "台灣南投縣",
+          "photoId": 240514662,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/240514662/large.jpeg",
+          "license": "cc-by-nc",
+          "attribution": "(c) 羅元甫, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/lithocarpus-glaber/03-obs-140504954-photo-240514662.jpeg"
+        },
+        {
+          "observationId": 140504954,
+          "observationUrl": "https://www.inaturalist.org/observations/140504954",
+          "observedOn": "2022-10-30",
+          "placeGuess": "台灣南投縣",
+          "photoId": 240514677,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/240514677/large.jpeg",
+          "license": "cc-by-nc",
+          "attribution": "(c) 羅元甫, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/lithocarpus-glaber/04-obs-140504954-photo-240514677.jpeg"
+        }
+      ],
+      "morphologyVerification": "TFRI 2012 historical plate where directly corresponding; current TBN taxonomy and exact-taxon observation photos where revised or split"
+    },
+    {
+      "scientificName": "Lithocarpus hancei",
+      "chineseName": "三斗石櫟",
+      "inaturalistTaxonId": 605161,
+      "inaturalistTaxonUrl": "https://www.inaturalist.org/taxa/605161",
+      "scope": "Taiwan",
+      "annotatedObservationCount": 40,
+      "status": "references-downloaded",
+      "references": [
+        {
+          "observationId": 16067384,
+          "observationUrl": "https://www.inaturalist.org/observations/16067384",
+          "observedOn": "2018-08-31",
+          "placeGuess": "Nantou County, Taiwan",
+          "photoId": 24059590,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/24059590/large.jpeg",
+          "license": "cc-by-nc-sa",
+          "attribution": "(c) Kuan-Chieh (Chuck) Hung, some rights reserved (CC BY-NC-SA)",
+          "localPath": ".research-fruit-refs/lithocarpus-hancei/01-obs-16067384-photo-24059590.jpeg"
+        },
+        {
+          "observationId": 16067384,
+          "observationUrl": "https://www.inaturalist.org/observations/16067384",
+          "observedOn": "2018-08-31",
+          "placeGuess": "Nantou County, Taiwan",
+          "photoId": 24059594,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/24059594/large.jpeg",
+          "license": "cc-by-nc-sa",
+          "attribution": "(c) Kuan-Chieh (Chuck) Hung, some rights reserved (CC BY-NC-SA)",
+          "localPath": ".research-fruit-refs/lithocarpus-hancei/02-obs-16067384-photo-24059594.jpeg"
+        },
+        {
+          "observationId": 16067384,
+          "observationUrl": "https://www.inaturalist.org/observations/16067384",
+          "observedOn": "2018-08-31",
+          "placeGuess": "Nantou County, Taiwan",
+          "photoId": 24059589,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/24059589/large.jpeg",
+          "license": "cc-by-nc-sa",
+          "attribution": "(c) Kuan-Chieh (Chuck) Hung, some rights reserved (CC BY-NC-SA)",
+          "localPath": ".research-fruit-refs/lithocarpus-hancei/03-obs-16067384-photo-24059589.jpeg"
+        },
+        {
+          "observationId": 16067384,
+          "observationUrl": "https://www.inaturalist.org/observations/16067384",
+          "observedOn": "2018-08-31",
+          "placeGuess": "Nantou County, Taiwan",
+          "photoId": 24059618,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/24059618/large.jpeg",
+          "license": "cc-by-nc-sa",
+          "attribution": "(c) Kuan-Chieh (Chuck) Hung, some rights reserved (CC BY-NC-SA)",
+          "localPath": ".research-fruit-refs/lithocarpus-hancei/04-obs-16067384-photo-24059618.jpeg"
+        }
+      ],
+      "morphologyVerification": "TFRI 2012 historical plate where directly corresponding; current TBN taxonomy and exact-taxon observation photos where revised or split"
+    },
+    {
+      "scientificName": "Lithocarpus harlandii",
+      "chineseName": "短尾葉石櫟",
+      "inaturalistTaxonId": 604751,
+      "inaturalistTaxonUrl": "https://www.inaturalist.org/taxa/604751",
+      "scope": "Taiwan",
+      "annotatedObservationCount": 2,
+      "status": "references-downloaded",
+      "references": [
+        {
+          "observationId": 246395135,
+          "observationUrl": "https://www.inaturalist.org/observations/246395135",
+          "observedOn": "2024-10-07",
+          "placeGuess": "966台灣台東縣達仁鄉",
+          "photoId": 439861313,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/439861313/large.jpg",
+          "license": "cc-by-nc",
+          "attribution": "(c) 彭啟賢, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/lithocarpus-harlandii/01-obs-246395135-photo-439861313.jpg"
+        },
+        {
+          "observationId": 246395135,
+          "observationUrl": "https://www.inaturalist.org/observations/246395135",
+          "observedOn": "2024-10-07",
+          "placeGuess": "966台灣台東縣達仁鄉",
+          "photoId": 439861474,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/439861474/large.jpg",
+          "license": "cc-by-nc",
+          "attribution": "(c) 彭啟賢, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/lithocarpus-harlandii/02-obs-246395135-photo-439861474.jpg"
+        },
+        {
+          "observationId": 246415752,
+          "observationUrl": "https://www.inaturalist.org/observations/246415752",
+          "observedOn": "2024-10-08",
+          "placeGuess": "966台灣台東縣達仁鄉",
+          "photoId": 439902185,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/439902185/large.jpeg",
+          "license": "cc-by-nc",
+          "attribution": "(c) 彭啟賢, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/lithocarpus-harlandii/03-obs-246415752-photo-439902185.jpeg"
+        },
+        {
+          "observationId": 246415752,
+          "observationUrl": "https://www.inaturalist.org/observations/246415752",
+          "observedOn": "2024-10-08",
+          "placeGuess": "966台灣台東縣達仁鄉",
+          "photoId": 439902199,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/439902199/large.jpeg",
+          "license": "cc-by-nc",
+          "attribution": "(c) 彭啟賢, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/lithocarpus-harlandii/04-obs-246415752-photo-439902199.jpeg"
+        }
+      ],
+      "morphologyVerification": "TFRI 2012 historical plate where directly corresponding; current TBN taxonomy and exact-taxon observation photos where revised or split"
+    },
+    {
+      "scientificName": "Lithocarpus kawakamii",
+      "chineseName": "大葉石櫟",
+      "inaturalistTaxonId": 569462,
+      "inaturalistTaxonUrl": "https://www.inaturalist.org/taxa/569462",
+      "scope": "Taiwan",
+      "annotatedObservationCount": 22,
+      "status": "references-downloaded",
+      "references": [
+        {
+          "observationId": 260783462,
+          "observationUrl": "https://www.inaturalist.org/observations/260783462",
+          "observedOn": "2025-02-06",
+          "placeGuess": "觀霧遊憩區, 泰安鄉, 苗栗縣, TW",
+          "photoId": 468387212,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/468387212/large.jpg",
+          "license": "cc-by-nc",
+          "attribution": "(c) yitselee, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/lithocarpus-kawakamii/01-obs-260783462-photo-468387212.jpg"
+        },
+        {
+          "observationId": 20339981,
+          "observationUrl": "https://www.inaturalist.org/observations/20339981",
+          "observedOn": "2017-11-05",
+          "placeGuess": "尖石鄉鎮西堡部落",
+          "photoId": 31406360,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/31406360/large.jpeg",
+          "license": "cc-by",
+          "attribution": "(c) 呂一起(Lyu yi-chi), some rights reserved (CC BY)",
+          "localPath": ".research-fruit-refs/lithocarpus-kawakamii/02-obs-20339981-photo-31406360.jpeg"
+        },
+        {
+          "observationId": 262083895,
+          "observationUrl": "https://www.inaturalist.org/observations/262083895",
+          "observedOn": "2025-02-18",
+          "placeGuess": "Nantou, TW-TA, TW",
+          "photoId": 470927245,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/470927245/large.jpeg",
+          "license": "cc-by-nc",
+          "attribution": "(c) 歐陽秀華, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/lithocarpus-kawakamii/03-obs-262083895-photo-470927245.jpeg"
+        },
+        {
+          "observationId": 262083895,
+          "observationUrl": "https://www.inaturalist.org/observations/262083895",
+          "observedOn": "2025-02-18",
+          "placeGuess": "Nantou, TW-TA, TW",
+          "photoId": 470927251,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/470927251/large.jpeg",
+          "license": "cc-by-nc",
+          "attribution": "(c) 歐陽秀華, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/lithocarpus-kawakamii/04-obs-262083895-photo-470927251.jpeg"
+        }
+      ],
+      "morphologyVerification": "TFRI 2012 historical plate where directly corresponding; current TBN taxonomy and exact-taxon observation photos where revised or split"
+    },
+    {
+      "scientificName": "Lithocarpus konishii",
+      "chineseName": "油葉石櫟",
+      "inaturalistTaxonId": 699398,
+      "inaturalistTaxonUrl": "https://www.inaturalist.org/taxa/699398",
+      "scope": "Taiwan",
+      "annotatedObservationCount": 16,
+      "status": "references-downloaded",
+      "references": [
+        {
+          "observationId": 20776242,
+          "observationUrl": "https://www.inaturalist.org/observations/20776242",
+          "observedOn": "2016-10-21",
+          "placeGuess": "台灣南投縣",
+          "photoId": 32040207,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/32040207/large.jpeg",
+          "license": "cc-by",
+          "attribution": "(c) Jacy Chen, some rights reserved (CC BY)",
+          "localPath": ".research-fruit-refs/lithocarpus-konishii/01-obs-20776242-photo-32040207.jpeg"
+        },
+        {
+          "observationId": 26154233,
+          "observationUrl": "https://www.inaturalist.org/observations/26154233",
+          "observedOn": "2019-05-31",
+          "placeGuess": "台灣屏東縣",
+          "photoId": 40585459,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/40585459/large.jpg",
+          "license": "cc-by-nc",
+          "attribution": "(c) Liu JimFood, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/lithocarpus-konishii/02-obs-26154233-photo-40585459.jpg"
+        },
+        {
+          "observationId": 26154233,
+          "observationUrl": "https://www.inaturalist.org/observations/26154233",
+          "observedOn": "2019-05-31",
+          "placeGuess": "台灣屏東縣",
+          "photoId": 40585462,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/40585462/large.jpg",
+          "license": "cc-by-nc",
+          "attribution": "(c) Liu JimFood, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/lithocarpus-konishii/03-obs-26154233-photo-40585462.jpg"
+        },
+        {
+          "observationId": 26154233,
+          "observationUrl": "https://www.inaturalist.org/observations/26154233",
+          "observedOn": "2019-05-31",
+          "placeGuess": "台灣屏東縣",
+          "photoId": 40585470,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/40585470/large.jpg",
+          "license": "cc-by-nc",
+          "attribution": "(c) Liu JimFood, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/lithocarpus-konishii/04-obs-26154233-photo-40585470.jpg"
+        }
+      ],
+      "morphologyVerification": "TFRI 2012 historical plate where directly corresponding; current TBN taxonomy and exact-taxon observation photos where revised or split"
+    },
+    {
+      "scientificName": "Lithocarpus lepidocarpus",
+      "chineseName": "鬼石櫟",
+      "inaturalistTaxonId": 736682,
+      "inaturalistTaxonUrl": "https://www.inaturalist.org/taxa/736682",
+      "scope": "Taiwan",
+      "annotatedObservationCount": 3,
+      "status": "references-downloaded",
+      "references": [
+        {
+          "observationId": 126918573,
+          "observationUrl": "https://www.inaturalist.org/observations/126918573",
+          "observedOn": "2021-11-16",
+          "placeGuess": "台灣南投縣",
+          "photoId": 215405453,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/215405453/large.jpeg",
+          "license": "cc-by-nc",
+          "attribution": "(c) Chen Shu, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/lithocarpus-lepidocarpus/01-obs-126918573-photo-215405453.jpeg"
+        }
+      ],
+      "morphologyVerification": "TFRI 2012 historical plate where directly corresponding; current TBN taxonomy and exact-taxon observation photos where revised or split"
+    },
+    {
+      "scientificName": "Lithocarpus nantoensis",
+      "chineseName": "南投石櫟",
+      "inaturalistTaxonId": 736683,
+      "inaturalistTaxonUrl": "https://www.inaturalist.org/taxa/736683",
+      "scope": "global",
+      "annotatedObservationCount": 0,
+      "status": "no-licensed-fruiting-reference",
+      "references": [],
+      "morphologyVerification": "TFRI 2012 historical plate where directly corresponding; current TBN taxonomy and exact-taxon observation photos where revised or split"
+    },
+    {
+      "scientificName": "Lithocarpus shinsuiensis",
+      "chineseName": "浸水營石櫟",
+      "inaturalistTaxonId": 736684,
+      "inaturalistTaxonUrl": "https://www.inaturalist.org/taxa/736684",
+      "scope": "Taiwan",
+      "annotatedObservationCount": 5,
+      "status": "references-downloaded",
+      "references": [
+        {
+          "observationId": 61948207,
+          "observationUrl": "https://www.inaturalist.org/observations/61948207",
+          "observedOn": "2020-10-07",
+          "placeGuess": "Taiwan, TW",
+          "photoId": 99191657,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/99191657/large.jpg",
+          "license": "cc-by-nc",
+          "attribution": "(c) 陳培均, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/lithocarpus-shinsuiensis/01-obs-61948207-photo-99191657.jpg"
+        },
+        {
+          "observationId": 61948207,
+          "observationUrl": "https://www.inaturalist.org/observations/61948207",
+          "observedOn": "2020-10-07",
+          "placeGuess": "Taiwan, TW",
+          "photoId": 99191668,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/99191668/large.jpg",
+          "license": "cc-by-nc",
+          "attribution": "(c) 陳培均, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/lithocarpus-shinsuiensis/02-obs-61948207-photo-99191668.jpg"
+        },
+        {
+          "observationId": 61948207,
+          "observationUrl": "https://www.inaturalist.org/observations/61948207",
+          "observedOn": "2020-10-07",
+          "placeGuess": "Taiwan, TW",
+          "photoId": 99191677,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/99191677/large.jpg",
+          "license": "cc-by-nc",
+          "attribution": "(c) 陳培均, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/lithocarpus-shinsuiensis/03-obs-61948207-photo-99191677.jpg"
+        },
+        {
+          "observationId": 61948207,
+          "observationUrl": "https://www.inaturalist.org/observations/61948207",
+          "observedOn": "2020-10-07",
+          "placeGuess": "Taiwan, TW",
+          "photoId": 99191689,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/99191689/large.jpg",
+          "license": "cc-by-nc",
+          "attribution": "(c) 陳培均, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/lithocarpus-shinsuiensis/04-obs-61948207-photo-99191689.jpg"
+        }
+      ],
+      "morphologyVerification": "TFRI 2012 historical plate where directly corresponding; current TBN taxonomy and exact-taxon observation photos where revised or split"
+    },
+    {
+      "scientificName": "Lithocarpus synbalanos",
+      "chineseName": "菱果石櫟",
+      "status": "references-downloaded-tbn",
+      "references": [
+        {
+          "source": "TBN",
+          "occurrenceId": "b01a21ae-e075-47b3-ba4d-056cbac87edf",
+          "observationUrl": "https://plant.tbn.org.tw/occurrence/b01a21ae-e075-47b3-ba4d-056cbac87edf",
+          "imageUrl": "https://plant.tbn.org.tw/sites/dpplant/files/occurrence/photo/2020/11/file-2052082-z39jvdw3.jpeg",
+          "license": "CC BY",
+          "attribution": "陳慧珠",
+          "localPath": ".research-fruit-refs/lithocarpus-synbalanos/tbn-2052082-01.jpeg"
+        },
+        {
+          "source": "TBN",
+          "occurrenceId": "b01a21ae-e075-47b3-ba4d-056cbac87edf",
+          "observationUrl": "https://plant.tbn.org.tw/occurrence/b01a21ae-e075-47b3-ba4d-056cbac87edf",
+          "imageUrl": "https://plant.tbn.org.tw/sites/dpplant/files/occurrence/photo/2020/11/file-2052082-au6x2orm.jpeg",
+          "license": "CC BY",
+          "attribution": "陳慧珠",
+          "localPath": ".research-fruit-refs/lithocarpus-synbalanos/tbn-2052082-02.jpeg"
+        },
+        {
+          "source": "TBN",
+          "occurrenceId": "b01a21ae-e075-47b3-ba4d-056cbac87edf",
+          "observationUrl": "https://plant.tbn.org.tw/occurrence/b01a21ae-e075-47b3-ba4d-056cbac87edf",
+          "imageUrl": "https://plant.tbn.org.tw/sites/dpplant/files/occurrence/photo/2020/11/file-2052082-fn6ywqp5.jpeg",
+          "license": "CC BY",
+          "attribution": "陳慧珠",
+          "localPath": ".research-fruit-refs/lithocarpus-synbalanos/tbn-2052082-03.jpeg"
+        },
+        {
+          "source": "TBN",
+          "occurrenceId": "b01a21ae-e075-47b3-ba4d-056cbac87edf",
+          "observationUrl": "https://plant.tbn.org.tw/occurrence/b01a21ae-e075-47b3-ba4d-056cbac87edf",
+          "imageUrl": "https://plant.tbn.org.tw/sites/dpplant/files/occurrence/photo/2020/11/file-2052082-wuwibv61.jpeg",
+          "license": "CC BY",
+          "attribution": "陳慧珠",
+          "localPath": ".research-fruit-refs/lithocarpus-synbalanos/tbn-2052082-04.jpeg"
+        }
+      ],
+      "morphologyVerification": "TFRI 2012 historical plate where directly corresponding; current TBN taxonomy and exact-taxon observation photos where revised or split",
+      "inaturalistStatus": "references-downloaded-tbn",
+      "tbnTaxonUrl": "https://plant.tbn.org.tw/taxa/ef3d59e6-8704-4bf2-bfa5-3efcd4edd492"
+    },
+    {
+      "scientificName": "Lithocarpus taitoensis",
+      "chineseName": "臺東石櫟",
+      "inaturalistTaxonId": 736686,
+      "inaturalistTaxonUrl": "https://www.inaturalist.org/taxa/736686",
+      "scope": "Taiwan",
+      "annotatedObservationCount": 6,
+      "status": "references-downloaded",
+      "references": [
+        {
+          "observationId": 253262001,
+          "observationUrl": "https://www.inaturalist.org/observations/253262001",
+          "observedOn": "2024-11-16",
+          "placeGuess": "Taiwan, TW",
+          "photoId": 453440843,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/453440843/large.jpeg",
+          "license": "cc-by-nc",
+          "attribution": "(c) 艸目伊, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/lithocarpus-taitoensis/01-obs-253262001-photo-453440843.jpeg"
+        },
+        {
+          "observationId": 253262001,
+          "observationUrl": "https://www.inaturalist.org/observations/253262001",
+          "observedOn": "2024-11-16",
+          "placeGuess": "Taiwan, TW",
+          "photoId": 453440880,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/453440880/large.jpeg",
+          "license": "cc-by-nc",
+          "attribution": "(c) 艸目伊, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/lithocarpus-taitoensis/02-obs-253262001-photo-453440880.jpeg"
+        },
+        {
+          "observationId": 253262001,
+          "observationUrl": "https://www.inaturalist.org/observations/253262001",
+          "observedOn": "2024-11-16",
+          "placeGuess": "Taiwan, TW",
+          "photoId": 453440987,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/453440987/large.jpeg",
+          "license": "cc-by-nc",
+          "attribution": "(c) 艸目伊, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/lithocarpus-taitoensis/03-obs-253262001-photo-453440987.jpeg"
+        },
+        {
+          "observationId": 253262001,
+          "observationUrl": "https://www.inaturalist.org/observations/253262001",
+          "observedOn": "2024-11-16",
+          "placeGuess": "Taiwan, TW",
+          "photoId": 453440912,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/453440912/large.jpeg",
+          "license": "cc-by-nc",
+          "attribution": "(c) 艸目伊, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/lithocarpus-taitoensis/04-obs-253262001-photo-453440912.jpeg"
+        }
+      ],
+      "morphologyVerification": "TFRI 2012 historical plate where directly corresponding; current TBN taxonomy and exact-taxon observation photos where revised or split"
+    },
+    {
+      "scientificName": "Quercus aliena var. aliena",
+      "chineseName": "槲櫟",
+      "status": "no-exact-inaturalist-taxon",
+      "references": [],
+      "morphologyVerification": "TFRI 2012 historical plate where directly corresponding; current TBN taxonomy and exact-taxon observation photos where revised or split"
+    },
+    {
+      "scientificName": "Quercus championii",
+      "chineseName": "嶺南青剛櫟",
+      "inaturalistTaxonId": 596521,
+      "inaturalistTaxonUrl": "https://www.inaturalist.org/taxa/596521",
+      "scope": "Taiwan",
+      "annotatedObservationCount": 5,
+      "status": "references-downloaded",
+      "references": [
+        {
+          "observationId": 141678001,
+          "observationUrl": "https://www.inaturalist.org/observations/141678001",
+          "observedOn": "2022-10-15",
+          "placeGuess": "台灣屏東縣",
+          "photoId": 242771078,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/242771078/large.jpg",
+          "license": "cc-by-nc-sa",
+          "attribution": "(c) 鳥松の熊, some rights reserved (CC BY-NC-SA)",
+          "localPath": ".research-fruit-refs/quercus-championii/01-obs-141678001-photo-242771078.jpg"
+        },
+        {
+          "observationId": 195706498,
+          "observationUrl": "https://www.inaturalist.org/observations/195706498",
+          "observedOn": "2023-06-19",
+          "placeGuess": "947, Taiwan, 屏東縣滿州鄉響林村",
+          "photoId": 344368054,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/344368054/large.jpeg",
+          "license": "cc-by-nc",
+          "attribution": "(c) Trevor Padgett, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/quercus-championii/02-obs-195706498-photo-344368054.jpeg"
+        },
+        {
+          "observationId": 201777943,
+          "observationUrl": "https://www.inaturalist.org/observations/201777943",
+          "observedOn": "2021-11-21",
+          "placeGuess": "943台灣屏東縣獅子鄉",
+          "photoId": 356242766,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/356242766/large.jpg",
+          "license": "cc-by-nc",
+          "attribution": "(c) usaviah, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/quercus-championii/03-obs-201777943-photo-356242766.jpg"
+        }
+      ],
+      "morphologyVerification": "TFRI 2012 historical plate where directly corresponding; current TBN taxonomy and exact-taxon observation photos where revised or split"
+    },
+    {
+      "scientificName": "Quercus gilva",
+      "chineseName": "赤皮",
+      "inaturalistTaxonId": 703472,
+      "inaturalistTaxonUrl": "https://www.inaturalist.org/taxa/703472",
+      "scope": "Taiwan",
+      "annotatedObservationCount": 6,
+      "status": "references-downloaded",
+      "references": [
+        {
+          "observationId": 194095907,
+          "observationUrl": "https://www.inaturalist.org/observations/194095907",
+          "observedOn": "2023-12-10",
+          "placeGuess": "336台灣桃園市復興區成福路600號東眼山國家森林遊樂區",
+          "photoId": 341084860,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/341084860/large.jpeg",
+          "license": "cc-by-nc",
+          "attribution": "(c) friend1047, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/quercus-gilva/01-obs-194095907-photo-341084860.jpeg"
+        },
+        {
+          "observationId": 194095907,
+          "observationUrl": "https://www.inaturalist.org/observations/194095907",
+          "observedOn": "2023-12-10",
+          "placeGuess": "336台灣桃園市復興區成福路600號東眼山國家森林遊樂區",
+          "photoId": 341084873,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/341084873/large.jpeg",
+          "license": "cc-by-nc",
+          "attribution": "(c) friend1047, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/quercus-gilva/02-obs-194095907-photo-341084873.jpeg"
+        },
+        {
+          "observationId": 194095907,
+          "observationUrl": "https://www.inaturalist.org/observations/194095907",
+          "observedOn": "2023-12-10",
+          "placeGuess": "336台灣桃園市復興區成福路600號東眼山國家森林遊樂區",
+          "photoId": 341084881,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/341084881/large.jpeg",
+          "license": "cc-by-nc",
+          "attribution": "(c) friend1047, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/quercus-gilva/03-obs-194095907-photo-341084881.jpeg"
+        },
+        {
+          "observationId": 194095907,
+          "observationUrl": "https://www.inaturalist.org/observations/194095907",
+          "observedOn": "2023-12-10",
+          "placeGuess": "336台灣桃園市復興區成福路600號東眼山國家森林遊樂區",
+          "photoId": 341084875,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/341084875/large.jpeg",
+          "license": "cc-by-nc",
+          "attribution": "(c) friend1047, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/quercus-gilva/04-obs-194095907-photo-341084875.jpeg"
+        }
+      ],
+      "morphologyVerification": "TFRI 2012 historical plate where directly corresponding; current TBN taxonomy and exact-taxon observation photos where revised or split"
+    },
+    {
+      "scientificName": "Quercus glandulifera var. brevipetiolata",
+      "chineseName": "思茅櫧櫟",
+      "status": "no-exact-inaturalist-taxon",
+      "references": [],
+      "morphologyVerification": "TFRI 2012 historical plate where directly corresponding; current TBN taxonomy and exact-taxon observation photos where revised or split"
+    },
+    {
+      "scientificName": "Quercus glauca",
+      "chineseName": "青剛櫟",
+      "inaturalistTaxonId": 191183,
+      "inaturalistTaxonUrl": "https://www.inaturalist.org/taxa/191183",
+      "scope": "Taiwan",
+      "annotatedObservationCount": 54,
+      "status": "references-downloaded",
+      "references": [
+        {
+          "observationId": 36018984,
+          "observationUrl": "https://www.inaturalist.org/observations/36018984",
+          "observedOn": "2019-11-09",
+          "placeGuess": "台灣新竹縣尖石鄉霞喀羅古道",
+          "photoId": 56880049,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/56880049/large.jpeg",
+          "license": "cc-by-nc",
+          "attribution": "(c) 謝忠良, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/quercus-glauca/01-obs-36018984-photo-56880049.jpeg"
+        },
+        {
+          "observationId": 36018984,
+          "observationUrl": "https://www.inaturalist.org/observations/36018984",
+          "observedOn": "2019-11-09",
+          "placeGuess": "台灣新竹縣尖石鄉霞喀羅古道",
+          "photoId": 56880068,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/56880068/large.jpeg",
+          "license": "cc-by-nc",
+          "attribution": "(c) 謝忠良, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/quercus-glauca/02-obs-36018984-photo-56880068.jpeg"
+        },
+        {
+          "observationId": 36018984,
+          "observationUrl": "https://www.inaturalist.org/observations/36018984",
+          "observedOn": "2019-11-09",
+          "placeGuess": "台灣新竹縣尖石鄉霞喀羅古道",
+          "photoId": 56880080,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/56880080/large.jpeg",
+          "license": "cc-by-nc",
+          "attribution": "(c) 謝忠良, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/quercus-glauca/03-obs-36018984-photo-56880080.jpeg"
+        },
+        {
+          "observationId": 36018984,
+          "observationUrl": "https://www.inaturalist.org/observations/36018984",
+          "observedOn": "2019-11-09",
+          "placeGuess": "台灣新竹縣尖石鄉霞喀羅古道",
+          "photoId": 56880096,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/56880096/large.jpeg",
+          "license": "cc-by-nc",
+          "attribution": "(c) 謝忠良, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/quercus-glauca/04-obs-36018984-photo-56880096.jpeg"
+        }
+      ],
+      "morphologyVerification": "TFRI 2012 historical plate where directly corresponding; current TBN taxonomy and exact-taxon observation photos where revised or split"
+    },
+    {
+      "scientificName": "Quercus globosa",
+      "chineseName": "圓果青剛櫟",
+      "inaturalistTaxonId": 1279976,
+      "inaturalistTaxonUrl": "https://www.inaturalist.org/taxa/1279976",
+      "scope": "Taiwan",
+      "annotatedObservationCount": 3,
+      "status": "references-downloaded",
+      "references": [
+        {
+          "observationId": 39875509,
+          "observationUrl": "https://www.inaturalist.org/observations/39875509",
+          "observedOn": "2015-01-03",
+          "placeGuess": "台中市大坑步道",
+          "photoId": 63308521,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/63308521/large.jpeg",
+          "license": "cc-by",
+          "attribution": "(c) 呂一起(Lyu yi-chi), some rights reserved (CC BY)",
+          "localPath": ".research-fruit-refs/quercus-globosa/01-obs-39875509-photo-63308521.jpeg"
+        },
+        {
+          "observationId": 39875509,
+          "observationUrl": "https://www.inaturalist.org/observations/39875509",
+          "observedOn": "2015-01-03",
+          "placeGuess": "台中市大坑步道",
+          "photoId": 63308523,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/63308523/large.jpeg",
+          "license": "cc-by",
+          "attribution": "(c) 呂一起(Lyu yi-chi), some rights reserved (CC BY)",
+          "localPath": ".research-fruit-refs/quercus-globosa/02-obs-39875509-photo-63308523.jpeg"
+        },
+        {
+          "observationId": 39875509,
+          "observationUrl": "https://www.inaturalist.org/observations/39875509",
+          "observedOn": "2015-01-03",
+          "placeGuess": "台中市大坑步道",
+          "photoId": 63308527,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/63308527/large.jpeg",
+          "license": "cc-by",
+          "attribution": "(c) 呂一起(Lyu yi-chi), some rights reserved (CC BY)",
+          "localPath": ".research-fruit-refs/quercus-globosa/03-obs-39875509-photo-63308527.jpeg"
+        },
+        {
+          "observationId": 39875509,
+          "observationUrl": "https://www.inaturalist.org/observations/39875509",
+          "observedOn": "2015-01-03",
+          "placeGuess": "台中市大坑步道",
+          "photoId": 63308530,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/63308530/large.jpeg",
+          "license": "cc-by",
+          "attribution": "(c) 呂一起(Lyu yi-chi), some rights reserved (CC BY)",
+          "localPath": ".research-fruit-refs/quercus-globosa/04-obs-39875509-photo-63308530.jpeg"
+        }
+      ],
+      "morphologyVerification": "TFRI 2012 historical plate where directly corresponding; current TBN taxonomy and exact-taxon observation photos where revised or split"
+    },
+    {
+      "scientificName": "Quercus hypophaea",
+      "chineseName": "灰背櫟",
+      "inaturalistTaxonId": 736689,
+      "inaturalistTaxonUrl": "https://www.inaturalist.org/taxa/736689",
+      "scope": "Taiwan",
+      "annotatedObservationCount": 2,
+      "status": "references-downloaded",
+      "references": [
+        {
+          "observationId": 332846306,
+          "observationUrl": "https://www.inaturalist.org/observations/332846306",
+          "observedOn": "2025-12-20",
+          "placeGuess": "Taiwan, TW",
+          "photoId": 604145364,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/604145364/large.jpg",
+          "license": "cc-by-nc",
+          "attribution": "(c) Shang-Kwei Wang, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/quercus-hypophaea/01-obs-332846306-photo-604145364.jpg"
+        },
+        {
+          "observationId": 332846306,
+          "observationUrl": "https://www.inaturalist.org/observations/332846306",
+          "observedOn": "2025-12-20",
+          "placeGuess": "Taiwan, TW",
+          "photoId": 604145423,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/604145423/large.jpg",
+          "license": "cc-by-nc",
+          "attribution": "(c) Shang-Kwei Wang, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/quercus-hypophaea/02-obs-332846306-photo-604145423.jpg"
+        }
+      ],
+      "morphologyVerification": "TFRI 2012 historical plate where directly corresponding; current TBN taxonomy and exact-taxon observation photos where revised or split"
+    },
+    {
+      "scientificName": "Quercus longinux",
+      "chineseName": "錐果櫟",
+      "inaturalistTaxonId": 736688,
+      "inaturalistTaxonUrl": "https://www.inaturalist.org/taxa/736688",
+      "scope": "global",
+      "annotatedObservationCount": 1,
+      "status": "no-licensed-fruiting-reference",
+      "references": [],
+      "morphologyVerification": "TFRI 2012 historical plate where directly corresponding; current TBN taxonomy and exact-taxon observation photos where revised or split"
+    },
+    {
+      "scientificName": "Quercus morii",
+      "chineseName": "森氏櫟",
+      "inaturalistTaxonId": 713662,
+      "inaturalistTaxonUrl": "https://www.inaturalist.org/taxa/713662",
+      "scope": "Taiwan",
+      "annotatedObservationCount": 15,
+      "status": "references-downloaded",
+      "references": [
+        {
+          "observationId": 135215939,
+          "observationUrl": "https://www.inaturalist.org/observations/135215939",
+          "observedOn": "2022-09-16",
+          "placeGuess": "大雪山200林道, 和平區, TW",
+          "photoId": 230592833,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/230592833/large.jpg",
+          "license": "cc-by-nc",
+          "attribution": "(c) womlisa, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/quercus-morii/01-obs-135215939-photo-230592833.jpg"
+        },
+        {
+          "observationId": 232856048,
+          "observationUrl": "https://www.inaturalist.org/observations/232856048",
+          "observedOn": "2024-07-31",
+          "placeGuess": "觀霧遊憩區, 五峰鄉, HSQ, TW",
+          "photoId": 413754963,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/413754963/large.jpeg",
+          "license": "cc-by-nc",
+          "attribution": "(c) seom_08, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/quercus-morii/02-obs-232856048-photo-413754963.jpeg"
+        },
+        {
+          "observationId": 135365489,
+          "observationUrl": "https://www.inaturalist.org/observations/135365489",
+          "observedOn": "2022-09-15",
+          "placeGuess": "觀霧森林",
+          "photoId": 230860393,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/230860393/large.jpeg",
+          "license": "cc-by-nc",
+          "attribution": "(c) 陳柏璋, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/quercus-morii/03-obs-135365489-photo-230860393.jpeg"
+        },
+        {
+          "observationId": 244093902,
+          "observationUrl": "https://www.inaturalist.org/observations/244093902",
+          "observedOn": "2024-09-26",
+          "placeGuess": "雪霸國家公園, 泰安鄉, MIA, TW",
+          "photoId": 435365950,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/435365950/large.jpeg",
+          "license": "cc-by-nc",
+          "attribution": "(c) yitselee, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/quercus-morii/04-obs-244093902-photo-435365950.jpeg"
+        }
+      ],
+      "morphologyVerification": "TFRI 2012 historical plate where directly corresponding; current TBN taxonomy and exact-taxon observation photos where revised or split"
+    },
+    {
+      "scientificName": "Quercus myrsinifolia",
+      "chineseName": "黑櫟",
+      "inaturalistTaxonId": 425335,
+      "inaturalistTaxonUrl": "https://www.inaturalist.org/taxa/425335",
+      "scope": "global",
+      "annotatedObservationCount": 21,
+      "status": "references-downloaded",
+      "references": [
+        {
+          "observationId": 2011410,
+          "observationUrl": "https://www.inaturalist.org/observations/2011410",
+          "observedOn": "2015-09-19",
+          "placeGuess": "Kobe, Hyogo, Japan",
+          "photoId": 2449389,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/2449389/large.JPG",
+          "license": "cc-by-sa",
+          "attribution": "(c) harum.koh, some rights reserved (CC BY-SA)",
+          "localPath": ".research-fruit-refs/quercus-myrsinifolia/01-obs-2011410-photo-2449389.JPG"
+        },
+        {
+          "observationId": 317937531,
+          "observationUrl": "https://www.inaturalist.org/observations/317937531",
+          "observedOn": "2025-09-09",
+          "placeGuess": "Luxi County, Jiangxi, Pingxiang, Jiangxi, China",
+          "photoId": 574562261,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/574562261/large.jpg",
+          "license": "cc-by-nc",
+          "attribution": "(c) MP Zhou, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/quercus-myrsinifolia/02-obs-317937531-photo-574562261.jpg"
+        },
+        {
+          "observationId": 317937531,
+          "observationUrl": "https://www.inaturalist.org/observations/317937531",
+          "observedOn": "2025-09-09",
+          "placeGuess": "Luxi County, Jiangxi, Pingxiang, Jiangxi, China",
+          "photoId": 574562243,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/574562243/large.jpg",
+          "license": "cc-by-nc",
+          "attribution": "(c) MP Zhou, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/quercus-myrsinifolia/03-obs-317937531-photo-574562243.jpg"
+        },
+        {
+          "observationId": 317937531,
+          "observationUrl": "https://www.inaturalist.org/observations/317937531",
+          "observedOn": "2025-09-09",
+          "placeGuess": "Luxi County, Jiangxi, Pingxiang, Jiangxi, China",
+          "photoId": 574562254,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/574562254/large.jpg",
+          "license": "cc-by-nc",
+          "attribution": "(c) MP Zhou, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/quercus-myrsinifolia/04-obs-317937531-photo-574562254.jpg"
+        }
+      ],
+      "morphologyVerification": "TFRI 2012 historical plate where directly corresponding; current TBN taxonomy and exact-taxon observation photos where revised or split"
+    },
+    {
+      "scientificName": "Quercus pachyloma",
+      "chineseName": "捲斗櫟",
+      "inaturalistTaxonId": 596522,
+      "inaturalistTaxonUrl": "https://www.inaturalist.org/taxa/596522",
+      "scope": "Taiwan",
+      "annotatedObservationCount": 38,
+      "status": "references-downloaded",
+      "references": [
+        {
+          "observationId": 201777944,
+          "observationUrl": "https://www.inaturalist.org/observations/201777944",
+          "observedOn": "2021-11-21",
+          "placeGuess": "943台灣屏東縣獅子鄉",
+          "photoId": 356242761,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/356242761/large.jpg",
+          "license": "cc-by-nc",
+          "attribution": "(c) usaviah, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/quercus-pachyloma/01-obs-201777944-photo-356242761.jpg"
+        },
+        {
+          "observationId": 320998086,
+          "observationUrl": "https://www.inaturalist.org/observations/320998086",
+          "observedOn": "2025-10-15",
+          "placeGuess": "352台灣苗栗縣三灣鄉大河村",
+          "photoId": 580466671,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/580466671/large.jpg",
+          "license": "cc-by-nc",
+          "attribution": "(c) lubukun, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/quercus-pachyloma/02-obs-320998086-photo-580466671.jpg"
+        },
+        {
+          "observationId": 256721979,
+          "observationUrl": "https://www.inaturalist.org/observations/256721979",
+          "observedOn": "2024-01-21",
+          "placeGuess": "555台灣南投縣魚池鄉水蛙頭步道",
+          "photoId": 460357375,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/460357375/large.jpeg",
+          "license": "cc-by-nc",
+          "attribution": "(c) lithocarpus, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/quercus-pachyloma/03-obs-256721979-photo-460357375.jpeg"
+        },
+        {
+          "observationId": 256721979,
+          "observationUrl": "https://www.inaturalist.org/observations/256721979",
+          "observedOn": "2024-01-21",
+          "placeGuess": "555台灣南投縣魚池鄉水蛙頭步道",
+          "photoId": 460357392,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/460357392/large.jpeg",
+          "license": "cc-by-nc",
+          "attribution": "(c) lithocarpus, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/quercus-pachyloma/04-obs-256721979-photo-460357392.jpeg"
+        }
+      ],
+      "morphologyVerification": "TFRI 2012 historical plate where directly corresponding; current TBN taxonomy and exact-taxon observation photos where revised or split"
+    },
+    {
+      "scientificName": "Quercus repandifolia",
+      "chineseName": "波葉櫟",
+      "inaturalistTaxonId": 1197013,
+      "inaturalistTaxonUrl": "https://www.inaturalist.org/taxa/1197013",
+      "scope": "global",
+      "annotatedObservationCount": 0,
+      "status": "no-licensed-fruiting-reference",
+      "references": [],
+      "morphologyVerification": "TFRI 2012 historical plate where directly corresponding; current TBN taxonomy and exact-taxon observation photos where revised or split"
+    },
+    {
+      "scientificName": "Quercus salicina",
+      "chineseName": "白背櫟",
+      "inaturalistTaxonId": 448270,
+      "inaturalistTaxonUrl": "https://www.inaturalist.org/taxa/448270",
+      "scope": "global",
+      "annotatedObservationCount": 1,
+      "status": "references-downloaded",
+      "references": [
+        {
+          "observationId": 135770259,
+          "observationUrl": "https://www.inaturalist.org/observations/135770259",
+          "observedOn": "2022-09-20",
+          "placeGuess": "Japan",
+          "photoId": 231620904,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/231620904/large.jpeg",
+          "license": "cc-by-nc",
+          "attribution": "(c) K_Kawashima, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/quercus-salicina/01-obs-135770259-photo-231620904.jpeg"
+        },
+        {
+          "observationId": 135770259,
+          "observationUrl": "https://www.inaturalist.org/observations/135770259",
+          "observedOn": "2022-09-20",
+          "placeGuess": "Japan",
+          "photoId": 231621002,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/231621002/large.jpeg",
+          "license": "cc-by-nc",
+          "attribution": "(c) K_Kawashima, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/quercus-salicina/02-obs-135770259-photo-231621002.jpeg"
+        }
+      ],
+      "morphologyVerification": "TFRI 2012 historical plate where directly corresponding; current TBN taxonomy and exact-taxon observation photos where revised or split"
+    },
+    {
+      "scientificName": "Quercus sessilifolia",
+      "chineseName": "毽子櫟",
+      "inaturalistTaxonId": 627203,
+      "inaturalistTaxonUrl": "https://www.inaturalist.org/taxa/627203",
+      "scope": "Taiwan",
+      "annotatedObservationCount": 7,
+      "status": "references-downloaded",
+      "references": [
+        {
+          "observationId": 336663481,
+          "observationUrl": "https://www.inaturalist.org/observations/336663481",
+          "observedOn": "2024-10-06",
+          "placeGuess": "336台灣桃園市復興區霞雲里",
+          "photoId": 611839798,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/611839798/large.jpg",
+          "license": "cc-by-nc",
+          "attribution": "(c) 許惠怡, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/quercus-sessilifolia/01-obs-336663481-photo-611839798.jpg"
+        },
+        {
+          "observationId": 316968097,
+          "observationUrl": "https://www.inaturalist.org/observations/316968097",
+          "observedOn": "2025-09-27",
+          "placeGuess": "Taiwan, TW",
+          "photoId": 572721725,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/572721725/large.jpg",
+          "license": "cc-by-nc",
+          "attribution": "(c) dd1003960136, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/quercus-sessilifolia/02-obs-316968097-photo-572721725.jpg"
+        },
+        {
+          "observationId": 316968097,
+          "observationUrl": "https://www.inaturalist.org/observations/316968097",
+          "observedOn": "2025-09-27",
+          "placeGuess": "Taiwan, TW",
+          "photoId": 572721854,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/572721854/large.jpg",
+          "license": "cc-by-nc",
+          "attribution": "(c) dd1003960136, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/quercus-sessilifolia/03-obs-316968097-photo-572721854.jpg"
+        },
+        {
+          "observationId": 316968097,
+          "observationUrl": "https://www.inaturalist.org/observations/316968097",
+          "observedOn": "2025-09-27",
+          "placeGuess": "Taiwan, TW",
+          "photoId": 572721951,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/572721951/large.jpg",
+          "license": "cc-by-nc",
+          "attribution": "(c) dd1003960136, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/quercus-sessilifolia/04-obs-316968097-photo-572721951.jpg"
+        }
+      ],
+      "morphologyVerification": "TFRI 2012 historical plate where directly corresponding; current TBN taxonomy and exact-taxon observation photos where revised or split"
+    },
+    {
+      "scientificName": "Quercus spinosa",
+      "chineseName": "高山櫟",
+      "inaturalistTaxonId": 706704,
+      "inaturalistTaxonUrl": "https://www.inaturalist.org/taxa/706704",
+      "scope": "Taiwan",
+      "annotatedObservationCount": 1,
+      "status": "references-downloaded",
+      "references": [
+        {
+          "observationId": 191237889,
+          "observationUrl": "https://www.inaturalist.org/observations/191237889",
+          "observedOn": "2023-11-11",
+          "placeGuess": "Taroko, TW-TG-TU, TW-TG, TW",
+          "photoId": 335430073,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/335430073/large.jpeg",
+          "license": "cc-by-nc",
+          "attribution": "(c) huanghuai, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/quercus-spinosa/01-obs-191237889-photo-335430073.jpeg"
+        }
+      ],
+      "morphologyVerification": "TFRI 2012 historical plate where directly corresponding; current TBN taxonomy and exact-taxon observation photos where revised or split"
+    },
+    {
+      "scientificName": "Quercus stenophylloides",
+      "chineseName": "狹葉櫟",
+      "inaturalistTaxonId": 569455,
+      "inaturalistTaxonUrl": "https://www.inaturalist.org/taxa/569455",
+      "scope": "Taiwan",
+      "annotatedObservationCount": 11,
+      "status": "references-downloaded",
+      "references": [
+        {
+          "observationId": 65218573,
+          "observationUrl": "https://www.inaturalist.org/observations/65218573",
+          "observedOn": "2019-10-08",
+          "placeGuess": "Taroko, Taichung, Taichung, Taiwan",
+          "photoId": 104934069,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/104934069/large.jpg",
+          "license": "cc-by-nc",
+          "attribution": "(c) 傻子, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/quercus-stenophylloides/01-obs-65218573-photo-104934069.jpg"
+        },
+        {
+          "observationId": 65218573,
+          "observationUrl": "https://www.inaturalist.org/observations/65218573",
+          "observedOn": "2019-10-08",
+          "placeGuess": "Taroko, Taichung, Taichung, Taiwan",
+          "photoId": 104934105,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/104934105/large.jpg",
+          "license": "cc-by-nc",
+          "attribution": "(c) 傻子, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/quercus-stenophylloides/02-obs-65218573-photo-104934105.jpg"
+        },
+        {
+          "observationId": 65218573,
+          "observationUrl": "https://www.inaturalist.org/observations/65218573",
+          "observedOn": "2019-10-08",
+          "placeGuess": "Taroko, Taichung, Taichung, Taiwan",
+          "photoId": 104934131,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/104934131/large.jpg",
+          "license": "cc-by-nc",
+          "attribution": "(c) 傻子, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/quercus-stenophylloides/03-obs-65218573-photo-104934131.jpg"
+        },
+        {
+          "observationId": 65218573,
+          "observationUrl": "https://www.inaturalist.org/observations/65218573",
+          "observedOn": "2019-10-08",
+          "placeGuess": "Taroko, Taichung, Taichung, Taiwan",
+          "photoId": 104934156,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/104934156/large.jpg",
+          "license": "cc-by-nc",
+          "attribution": "(c) 傻子, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/quercus-stenophylloides/04-obs-65218573-photo-104934156.jpg"
+        }
+      ],
+      "morphologyVerification": "TFRI 2012 historical plate where directly corresponding; current TBN taxonomy and exact-taxon observation photos where revised or split"
+    },
+    {
+      "scientificName": "Quercus tarokoensis",
+      "chineseName": "太魯閣櫟",
+      "inaturalistTaxonId": 515711,
+      "inaturalistTaxonUrl": "https://www.inaturalist.org/taxa/515711",
+      "scope": "Taiwan",
+      "annotatedObservationCount": 2,
+      "status": "references-downloaded",
+      "references": [
+        {
+          "observationId": 18817764,
+          "observationUrl": "https://www.inaturalist.org/observations/18817764",
+          "observedOn": "2018-11-12",
+          "placeGuess": "台灣花蓮縣",
+          "photoId": 28822088,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/28822088/large.jpeg",
+          "license": "cc-by-nc-sa",
+          "attribution": "(c) Kuan-Chieh (Chuck) Hung, some rights reserved (CC BY-NC-SA)",
+          "localPath": ".research-fruit-refs/quercus-tarokoensis/01-obs-18817764-photo-28822088.jpeg"
+        },
+        {
+          "observationId": 18817764,
+          "observationUrl": "https://www.inaturalist.org/observations/18817764",
+          "observedOn": "2018-11-12",
+          "placeGuess": "台灣花蓮縣",
+          "photoId": 28822087,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/28822087/large.jpeg",
+          "license": "cc-by-nc-sa",
+          "attribution": "(c) Kuan-Chieh (Chuck) Hung, some rights reserved (CC BY-NC-SA)",
+          "localPath": ".research-fruit-refs/quercus-tarokoensis/02-obs-18817764-photo-28822087.jpeg"
+        },
+        {
+          "observationId": 62563020,
+          "observationUrl": "https://www.inaturalist.org/observations/62563020",
+          "observedOn": "2020-10-09",
+          "placeGuess": "秀林鄉, TW",
+          "photoId": 100261319,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/100261319/large.jpg",
+          "license": "cc-by-nc",
+          "attribution": "(c) JODY HSIEH, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/quercus-tarokoensis/03-obs-62563020-photo-100261319.jpg"
+        },
+        {
+          "observationId": 62563020,
+          "observationUrl": "https://www.inaturalist.org/observations/62563020",
+          "observedOn": "2020-10-09",
+          "placeGuess": "秀林鄉, TW",
+          "photoId": 100261335,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/100261335/large.jpg",
+          "license": "cc-by-nc",
+          "attribution": "(c) JODY HSIEH, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/quercus-tarokoensis/04-obs-62563020-photo-100261335.jpg"
+        }
+      ],
+      "morphologyVerification": "TFRI 2012 historical plate where directly corresponding; current TBN taxonomy and exact-taxon observation photos where revised or split"
+    },
+    {
+      "scientificName": "Quercus tatakaensis",
+      "chineseName": "銳葉高山櫟",
+      "inaturalistTaxonId": 890500,
+      "inaturalistTaxonUrl": "https://www.inaturalist.org/taxa/890500",
+      "scope": "Taiwan",
+      "annotatedObservationCount": 9,
+      "status": "references-downloaded",
+      "references": [
+        {
+          "observationId": 320548703,
+          "observationUrl": "https://www.inaturalist.org/observations/320548703",
+          "observedOn": "2025-10-13",
+          "placeGuess": "雪霸國家公園, 和平區, 臺中市, TW",
+          "photoId": 579579760,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/579579760/large.jpg",
+          "license": "cc-by-nc",
+          "attribution": "(c) cshui, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/quercus-tatakaensis/01-obs-320548703-photo-579579760.jpg"
+        },
+        {
+          "observationId": 320548703,
+          "observationUrl": "https://www.inaturalist.org/observations/320548703",
+          "observedOn": "2025-10-13",
+          "placeGuess": "雪霸國家公園, 和平區, 臺中市, TW",
+          "photoId": 579579800,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/579579800/large.jpg",
+          "license": "cc-by-nc",
+          "attribution": "(c) cshui, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/quercus-tatakaensis/02-obs-320548703-photo-579579800.jpg"
+        },
+        {
+          "observationId": 308949149,
+          "observationUrl": "https://www.inaturalist.org/observations/308949149",
+          "observedOn": "2025-07-23",
+          "placeGuess": "424台灣台中市和平區",
+          "photoId": 557445721,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/557445721/large.jpg",
+          "license": "cc-by-nc",
+          "attribution": "(c) Lijin Huang (紫楝), some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/quercus-tatakaensis/03-obs-308949149-photo-557445721.jpg"
+        },
+        {
+          "observationId": 308949149,
+          "observationUrl": "https://www.inaturalist.org/observations/308949149",
+          "observedOn": "2025-07-23",
+          "placeGuess": "424台灣台中市和平區",
+          "photoId": 557445720,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/557445720/large.jpg",
+          "license": "cc-by-nc",
+          "attribution": "(c) Lijin Huang (紫楝), some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/quercus-tatakaensis/04-obs-308949149-photo-557445720.jpg"
+        }
+      ],
+      "morphologyVerification": "TFRI 2012 historical plate where directly corresponding; current TBN taxonomy and exact-taxon observation photos where revised or split"
+    },
+    {
+      "scientificName": "Quercus variabilis",
+      "chineseName": "栓皮櫟",
+      "inaturalistTaxonId": 415617,
+      "inaturalistTaxonUrl": "https://www.inaturalist.org/taxa/415617",
+      "scope": "Taiwan",
+      "annotatedObservationCount": 59,
+      "status": "references-downloaded",
+      "references": [
+        {
+          "observationId": 333387080,
+          "observationUrl": "https://www.inaturalist.org/observations/333387080",
+          "observedOn": "2026-01-04",
+          "placeGuess": "臺灣島, 仁愛鄉, 南投縣, TW",
+          "photoId": 605253449,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/605253449/large.jpg",
+          "license": "cc-by-nc",
+          "attribution": "(c) Johnson, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/quercus-variabilis/01-obs-333387080-photo-605253449.jpg"
+        },
+        {
+          "observationId": 66818794,
+          "observationUrl": "https://www.inaturalist.org/observations/66818794",
+          "observedOn": "2020-09-25",
+          "placeGuess": "大鹿林道東線",
+          "photoId": 107804952,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/107804952/large.jpeg",
+          "license": "cc-by-nc",
+          "attribution": "(c) 陳柏璋, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/quercus-variabilis/02-obs-66818794-photo-107804952.jpeg"
+        },
+        {
+          "observationId": 18647797,
+          "observationUrl": "https://www.inaturalist.org/observations/18647797",
+          "observedOn": "2018-10-28",
+          "placeGuess": "台灣台中市",
+          "photoId": 28545175,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/28545175/large.jpg",
+          "license": "cc-by-nc",
+          "attribution": "(c) 莊燿鴻, some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/quercus-variabilis/03-obs-18647797-photo-28545175.jpg"
+        },
+        {
+          "observationId": 308949156,
+          "observationUrl": "https://www.inaturalist.org/observations/308949156",
+          "observedOn": "2025-07-23",
+          "placeGuess": "424台灣台中市和平區",
+          "photoId": 557445808,
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/557445808/large.jpg",
+          "license": "cc-by-nc",
+          "attribution": "(c) Lijin Huang (紫楝), some rights reserved (CC BY-NC)",
+          "localPath": ".research-fruit-refs/quercus-variabilis/04-obs-308949156-photo-557445808.jpg"
+        }
+      ],
+      "morphologyVerification": "TFRI 2012 historical plate where directly corresponding; current TBN taxonomy and exact-taxon observation photos where revised or split"
+    },
+    {
+      "scientificName": "Quercus serrata var. brevipetiolata",
+      "chineseName": "青栲櫟",
+      "status": "no-exact-inaturalist-taxon",
+      "references": [],
+      "morphologyVerification": "TFRI 2012 historical plate where directly corresponding; current TBN taxonomy and exact-taxon observation photos where revised or split"
+    }
+  ],
+  "version": "1.2.0",
+  "scope": "46 Taiwan native lowest-rank Fagaceae taxa used by this atlas",
+  "authoritativeMorphologyReference": {
+    "title": "台灣橡實森林博覽會",
+    "publisher": "行政院農業委員會林業試驗所",
+    "year": 2012,
+    "url": "https://ws.tfri.gov.tw/001/Upload/OldFile/files/242_extension.pdf",
+    "use": "Direct same-taxon plate reference for 44 historical taxa; current TBN taxon pages and exact-taxon observations cover the difference in the atlas's 46-taxon current scope."
+  },
+  "supplementarySources": [
+    {
+      "title": "iNaturalist API and observations",
+      "apiDocs": "https://api.inaturalist.org/v2/docs/",
+      "annotationHelp": "https://help.inaturalist.org/en/support/solutions/articles/151000170738-how-to-use-inaturalist-search-urls",
+      "note": "Exact-taxon, research-grade observations annotated Fruits or Seeds; photos retained only as research inputs and are not republished by the site."
+    },
+    {
+      "title": "TBN 菱果石櫟果實觀察",
+      "observationUrl": "https://plant.tbn.org.tw/occurrence/b01a21ae-e075-47b3-ba4d-056cbac87edf",
+      "taxonUrl": "https://plant.tbn.org.tw/taxa/ef3d59e6-8704-4bf2-bfa5-3efcd4edd492",
+      "photographer": "陳慧珠",
+      "license": "CC BY"
+    }
+  ],
+  "workflow": {
+    "generatedWith": "OpenAI Image 2.0",
+    "method": "reference-based edit of the prior species plate; fruit, seed and cupule regions only",
+    "acceptanceCriteria": [
+      "cupule coverage ratio",
+      "cupule surface rings, scales, tubercles or spines",
+      "nut count per cupule",
+      "nut outline, apex and basal scar",
+      "fruit attachment and infructescence arrangement"
+    ],
+    "disclosure": "Outputs are reference-based AI reconstructions, not photographs and not sole identification evidence."
+  },
+  "coverage": {
+    "taxa": 46,
+    "officialMonographDirectTaxonPlates": 44,
+    "currentTaxonomyScopeVerified": 46,
+    "taxaWithSupplementaryLicensedObservationPhotos": 36,
+    "supplementaryPhotoCount": 130
+  }
+}
