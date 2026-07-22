@@ -1,11 +1,11 @@
 {
   "projectName": "Taiwan Fagaceae",
-  "title": "臺灣殼斗科探索",
+  "title": "果殼之島｜臺灣殼斗科圖鑑",
   "englishTitle": "Taiwan Fagaceae",
   "repositoryName": "Taiwan-Fagaceae",
   "repositoryNameSource": "folder",
-  "version": "0.1.0",
-  "status": "initialized",
+  "version": "0.2.0",
+  "status": "research-preview",
   "mode": "引導模式",
   "level": "國小",
   "grade": "五年級",
@@ -20,4 +20,3 @@
   "githubRepositoryUrl": "",
   "githubPagesUrl": ""
 }
-

@@ -3,58 +3,150 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="適合國小五年級的臺灣殼斗科互動學習教材。" />
-    <title>臺灣殼斗科探索</title>
+    <meta name="description" content="臺灣原生殼斗科 46 個分類群的互動圖鑑，整理分類、中文名、學名、英文名、葉、花、殼斗與堅果特徵。" />
+    <meta name="theme-color" content="#173e33" />
+    <title>果殼之島｜臺灣殼斗科圖鑑</title>
+    <link rel="preload" href="./assets/images/fagaceae-forest-hero.png" as="image" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/animation.css" />
     <link rel="stylesheet" href="./css/responsive.css" />
   </head>
   <body>
-    <a class="skip-link" href="#main-content">跳至主要內容</a>
-    <header class="site-header">
-      <div>
-        <p class="eyebrow">國小五年級・自然科學</p>
-        <h1>臺灣殼斗科探索</h1>
-      </div>
-      <p id="progress-label" aria-live="polite">學習進度：1 / 7</p>
+    <a class="skip-link" href="#main">跳至主要內容</a>
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="回到首頁">
+        <span class="brand-mark" aria-hidden="true">◒</span>
+        <span><strong>果殼之島</strong><small>TAIWAN FAGACEAE ATLAS</small></span>
+      </a>
+      <nav aria-label="主要導覽">
+        <a href="#features">辨識殼斗</a>
+        <a href="#atlas">46 種圖鑑</a>
+        <a href="#method">名錄口徑</a>
+        <a href="#sources">資料來源</a>
+      </nav>
     </header>
 
-    <nav class="tabs" aria-label="教材單元">
-      <button class="tab is-active" type="button" role="tab" aria-selected="true" aria-controls="mission">學習任務</button>
-      <button class="tab" type="button" role="tab" aria-selected="false" aria-controls="principles">特徵探索</button>
-      <button class="tab" type="button" role="tab" aria-selected="false" aria-controls="interaction">互動觀察</button>
-      <button class="tab" type="button" role="tab" aria-selected="false" aria-controls="animation">生命故事</button>
-      <button class="tab" type="button" role="tab" aria-selected="false" aria-controls="applications">生活應用</button>
-      <button class="tab" type="button" role="tab" aria-selected="false" aria-controls="quiz">闖關挑戰</button>
-      <button class="tab" type="button" role="tab" aria-selected="false" aria-controls="resources">自主學習</button>
-    </nav>
-
-    <main id="main-content" tabindex="-1">
-      <section id="mission" class="panel is-active" role="tabpanel">
-        <p class="eyebrow">學習任務</p>
-        <h2>從一顆橡實，認識臺灣森林</h2>
-        <p>這是已完成初始化的教材骨架。後續將補上經查證的內容、圖解、互動與評量。</p>
-        <dl class="overview">
-          <div><dt>適用對象</dt><dd>國小五年級</dd></div>
-          <div><dt>學習時間</dt><dd>約 40 分鐘</dd></div>
-          <div><dt>目前版本</dt><dd>v0.1.0</dd></div>
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <img src="./assets/images/fagaceae-forest-hero.png" alt="教學重建圖：臺灣霧林中的一棵殼斗科常綠喬木，前景有葉片、殼斗與堅果。" />
+        <div class="hero-shade"></div>
+        <div class="hero-content">
+          <p class="kicker">臺灣森林的堅果家族</p>
+          <h1 id="hero-title">沿著一枚殼斗，<br />讀懂一座島的森林。</h1>
+          <p class="hero-lead">依 2026-07-22 TBN 分類樹整理臺灣原生最低分類群，保留舊名、英文名可信度與形態查核註記。</p>
+          <a class="button button-light" href="#atlas">開始探索 46 種</a>
+        </div>
+        <dl class="hero-stats" aria-label="圖鑑統計">
+          <div><dt>46</dt><dd>原生分類群</dd></div>
+          <div><dt>4</dt><dd>原生屬</dd></div>
+          <div><dt>14</dt><dd>臺灣特有</dd></div>
+          <div><dt>12</dt><dd>受脅或近受脅</dd></div>
         </dl>
-        <button class="primary-action" type="button" data-next>開始學習</button>
+        <p class="image-disclosure">Image 2.0 教學重建圖・非鑑定照片</p>
       </section>
 
-      <section id="principles" class="panel" role="tabpanel" hidden><h2>特徵探索</h2><p>內容規劃中。</p></section>
-      <section id="interaction" class="panel" role="tabpanel" hidden><h2>互動觀察</h2><p>互動功能規劃中。</p></section>
-      <section id="animation" class="panel" role="tabpanel" hidden><h2>生命故事</h2><p>教學動畫規劃中。</p></section>
-      <section id="applications" class="panel" role="tabpanel" hidden><h2>生活應用</h2><p>生活情境規劃中。</p></section>
-      <section id="quiz" class="panel" role="tabpanel" hidden><h2>闖關挑戰</h2><p>題庫將依完成後的教材內容編寫。</p></section>
-      <section id="resources" class="panel" role="tabpanel" hidden><h2>自主學習</h2><p>可信賴資源查核中。</p></section>
+      <section class="intro section-shell" aria-labelledby="intro-title">
+        <div>
+          <p class="kicker ink">FAMILY FAGACEAE</p>
+          <h2 id="intro-title">不是所有「橡實」都長得一樣</h2>
+        </div>
+        <div class="intro-copy">
+          <p>殼斗科的果實是堅果；包在外側、像杯子、碗、刺球或環紋托座的構造叫做<strong>殼斗</strong>。它的包被程度、鱗片排列與刺的型態，常比單看葉片更有辨識力。</p>
+          <p class="research-note">本圖鑑是學習與查考入口，不取代臘葉標本、檢索表或專家鑑定。</p>
+        </div>
+      </section>
+
+      <section class="features section-shell" id="features" aria-labelledby="features-title">
+        <div class="section-heading">
+          <p class="kicker ink">KEY MORPHOLOGY</p>
+          <h2 id="features-title">先看殼斗，再看四個屬</h2>
+          <p>圖版由 Image 2.0 依文獻特徵重建，從上到下依序為栲屬、水青岡屬、石櫟屬、櫟屬；實際鑑定仍應比對標本照片。</p>
+        </div>
+        <figure class="morphology-plate">
+          <img src="./assets/images/fagaceae-four-genera-plate.png" alt="教學重建圖：栲屬、水青岡屬、石櫟屬與櫟屬的葉、花序、殼斗、堅果及剖面比較。" />
+          <figcaption>AI 教學重建圖，不按比例。網頁文字是判讀依據，圖像只協助建立觀察位置。</figcaption>
+        </figure>
+        <div class="genus-grid" aria-label="四屬比較">
+          <article><span>01</span><h3>栲屬 <i>Castanopsis</i></h3><p>殼斗多為刺球狀，常含 1–3 枚堅果；雄花雄蕊多。</p></article>
+          <article><span>02</span><h3>水青岡屬 <i>Fagus</i></h3><p>有柄殼斗四瓣裂，內有三稜堅果；臺灣僅一種。</p></article>
+          <article><span>03</span><h3>石櫟屬 <i>Lithocarpus</i></h3><p>每個總苞通常一朵雌花；殼斗具覆瓦狀鱗片。</p></article>
+          <article><span>04</span><h3>櫟屬 <i>Quercus</i></h3><p>殼斗有環紋型或鱗片型；包含常綠、落葉與灌木。</p></article>
+        </div>
+      </section>
+
+      <section class="atlas" id="atlas" aria-labelledby="atlas-title">
+        <div class="section-shell atlas-head">
+          <div>
+            <p class="kicker warm">FIELD GUIDE</p>
+            <h2 id="atlas-title">臺灣原生 46 種圖鑑</h2>
+          </div>
+          <p><span id="result-count">46</span> 筆結果・點擊卡片查看樹形、葉、花、種子與細部特徵</p>
+        </div>
+        <div class="atlas-tools section-shell" aria-label="圖鑑篩選工具">
+          <label class="search-field">
+            <span>搜尋</span>
+            <input id="search" type="search" placeholder="中文名、學名或英文名…" autocomplete="off" />
+          </label>
+          <div class="filter-group" role="group" aria-label="依屬篩選">
+            <button class="filter is-active" type="button" data-genus="all">全部</button>
+            <button class="filter" type="button" data-genus="Castanopsis">栲屬 <b>10</b></button>
+            <button class="filter" type="button" data-genus="Fagus">水青岡屬 <b>1</b></button>
+            <button class="filter" type="button" data-genus="Lithocarpus">石櫟屬 <b>15</b></button>
+            <button class="filter" type="button" data-genus="Quercus">櫟屬 <b>20</b></button>
+          </div>
+          <label class="select-field">排序
+            <select id="sort">
+              <option value="taxonomy">依分類</option>
+              <option value="zh">中文名</option>
+              <option value="risk">受脅程度</option>
+            </select>
+          </label>
+        </div>
+        <div id="species-grid" class="species-grid section-shell" aria-live="polite"></div>
+        <p id="no-results" class="no-results" hidden>找不到符合條件的物種，請調整搜尋文字或屬別。</p>
+      </section>
+
+      <section class="method section-shell" id="method" aria-labelledby="method-title">
+        <div class="section-heading">
+          <p class="kicker ink">TAXONOMIC SCOPE</p>
+          <h2 id="method-title">為什麼有人說 44、46，甚至 60？</h2>
+        </div>
+        <div class="scope-grid">
+          <article><strong>44</strong><h3>2012–2018 常見口徑</h3><p>栲屬 10、水青岡屬 1、石櫟屬 14、櫟屬 19；林試所圖鑑與分類研究常採此數。</p></article>
+          <article class="is-current"><strong>46</strong><h3>本站現行口徑</h3><p>依 TBN 2026-07-22 分類樹，排除有原生種下分類群的上位種名後，計得原生最低分類群 46 筆。</p></article>
+          <article><strong>60</strong><h3>臺大植物誌舊資料庫</h3><p>把原生、引進、變種與型合計為 60 個分類群；適合追查歷史名稱，不能直接等同原生種數。</p></article>
+        </div>
+        <div class="method-note">
+          <h3>本站編輯原則</h3>
+          <p>分類與保育狀態採 TBN；命名背景參照 TaiCOL；形態摘要交叉比對《臺灣植物誌》與林試所《台灣橡實森林博覽會》。沒有廣泛公認英文俗名的物種，以「描述性英文對照」呈現並加註，避免創造成正式通名。</p>
+        </div>
+      </section>
+
+      <section class="sources" id="sources" aria-labelledby="sources-title">
+        <div class="section-shell">
+          <p class="kicker warm">SOURCES &amp; REVIEW</p>
+          <h2 id="sources-title">資料從哪裡來？</h2>
+          <div class="source-list">
+            <a href="https://www.tbn.org.tw/data/api/openapi/v25/taxon" target="_blank" rel="noreferrer"><span>現行名錄・原生性・紅皮書</span><strong>TBN Taxon API 2.5.3 ↗</strong></a>
+            <a href="https://taicol.tw/" target="_blank" rel="noreferrer"><span>臺灣物種名錄骨幹</span><strong>TaiCOL ↗</strong></a>
+            <a href="https://tai2.ntu.edu.tw/family/Fagaceae" target="_blank" rel="noreferrer"><span>植物誌、標本與歷史分類</span><strong>Plants of Taiwan ↗</strong></a>
+            <a href="https://ws.tfri.gov.tw/001/Upload/OldFile/files/242_extension.pdf" target="_blank" rel="noreferrer"><span>四屬檢索與各種形態</span><strong>台灣橡實森林博覽會 ↗</strong></a>
+          </div>
+          <p class="source-foot">資料查核：2026-07-22。分類學會隨新研究修訂；若用於調查、保育或正式出版，請回查來源的最新版本。</p>
+        </div>
+      </section>
     </main>
 
-    <footer class="lesson-controls" aria-label="單元切換">
-      <button type="button" data-previous disabled>上一頁</button>
-      <button type="button" data-next>下一頁</button>
+    <footer>
+      <div><strong>果殼之島</strong><p>臺灣殼斗科互動圖鑑・v0.2.0 research preview</p></div>
+      <p>文字整理標示來源；AI 圖像僅供教學重建，不可作為單一鑑定依據。</p>
     </footer>
+
+    <dialog id="species-dialog" aria-labelledby="dialog-title">
+      <button class="dialog-close" type="button" aria-label="關閉物種詳情">×</button>
+      <div id="dialog-content"></div>
+    </dialog>
+
     <script type="module" src="./js/app.js"></script>
   </body>
 </html>
-

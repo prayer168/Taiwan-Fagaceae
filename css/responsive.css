@@ -1,6 +1,44 @@
-@media (max-width: 42rem) {
-  .site-header { align-items: start; flex-direction: column; }
-  .overview { grid-template-columns: 1fr; }
-  .panel { min-height: 26rem; }
+@media (max-width: 1050px) {
+  .topbar nav { display: none; }
+  .species-grid { grid-template-columns: repeat(3, 1fr); }
+  .genus-grid { grid-template-columns: repeat(2, 1fr); }
+  .atlas-tools { grid-template-columns: 1fr; }
+  .filter-group { overflow-x: auto; padding-bottom: .3rem; }
 }
 
+@media (max-width: 760px) {
+  .section-shell, .hero-content, .hero-stats, .topbar { width: min(100% - 2rem, 1240px); }
+  .hero { min-height: 720px; }
+  .hero > img { object-position: 62% center; }
+  .hero-shade { background: linear-gradient(90deg, rgb(8 29 23 / 88%), rgb(8 29 23 / 38%)), linear-gradient(0deg, rgb(8 29 23 / 86%), transparent 65%); }
+  .hero-content { padding: 8rem 0 12rem; }
+  .hero h1 { font-size: clamp(2.7rem, 13vw, 4.5rem); }
+  .hero-stats { grid-template-columns: repeat(2, 1fr); row-gap: 1rem; }
+  .hero-stats div:nth-child(3) { padding-left: 0; border-left: 0; }
+  .image-disclosure { display: none; }
+  .intro, .section-heading { grid-template-columns: 1fr; gap: 1.5rem; }
+  .intro { padding-block: 5rem; }
+  .intro-copy { padding-top: 0; }
+  .morphology-plate img { aspect-ratio: 1 / 1; object-fit: cover; object-position: center; }
+  .atlas-head { align-items: start; flex-direction: column; }
+  .species-grid { grid-template-columns: repeat(2, 1fr); }
+  .scope-grid { grid-template-columns: 1fr; }
+  .scope-grid article { min-height: auto; }
+  .method-note { grid-template-columns: 1fr; }
+  .dialog-hero { grid-template-columns: 1fr; }
+  .dialog-visual { min-height: 280px; }
+  .dialog-title { padding: 2.5rem 1.5rem; }
+  .organ-grid { grid-template-columns: 1fr; }
+  .detail-foot { grid-template-columns: 1fr; padding: 1.5rem; }
+  footer { flex-direction: column; }
+}
+
+@media (max-width: 500px) {
+  .hero-lead { font-size: .92rem; }
+  .genus-grid, .species-grid { grid-template-columns: 1fr; }
+  .species-card { min-height: 330px; }
+  .card-visual { height: 165px; }
+  .source-list a { align-items: start; flex-direction: column; gap: .4rem; }
+  .organ { grid-template-columns: 86px 1fr; padding: 1rem; }
+  .organ-icon { width: 86px; }
+}
