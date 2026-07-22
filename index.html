@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="臺灣原生殼斗科 46 個分類群的互動圖鑑，整理分類、中文名、學名、英文名、葉、花、殼斗與堅果特徵。" />
     <meta name="theme-color" content="#173e33" />
+    <meta property="og:title" content="果殼之島｜臺灣殼斗科圖鑑" />
+    <meta property="og:description" content="探索臺灣原生殼斗科 46 個分類群，以及 6 種歸化或栽培附錄。" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://prayer168.github.io/Taiwan-Fagaceae/" />
+    <meta property="og:image" content="https://prayer168.github.io/Taiwan-Fagaceae/assets/images/fagaceae-forest-hero.png" />
+    <link rel="canonical" href="https://prayer168.github.io/Taiwan-Fagaceae/" />
+    <link rel="icon" href="./assets/icons/favicon.svg" type="image/svg+xml" />
     <title>果殼之島｜臺灣殼斗科圖鑑</title>
     <link rel="preload" href="./assets/images/fagaceae-forest-hero.png" as="image" />
     <link rel="stylesheet" href="./css/style.css" />
@@ -28,7 +35,7 @@
 
     <main id="main">
       <section class="hero" id="top" aria-labelledby="hero-title">
-        <img src="./assets/images/fagaceae-forest-hero.png" alt="教學重建圖：臺灣霧林中的一棵殼斗科常綠喬木，前景有葉片、殼斗與堅果。" />
+        <img src="./assets/images/fagaceae-forest-hero.png" width="1680" height="944" fetchpriority="high" decoding="async" alt="教學重建圖：臺灣霧林中的一棵殼斗科常綠喬木，前景有葉片、殼斗與堅果。" />
         <div class="hero-shade"></div>
         <div class="hero-content">
           <p class="kicker">臺灣森林的堅果家族</p>
@@ -63,7 +70,7 @@
           <p>圖版由 Image 2.0 依文獻特徵重建，從上到下依序為栲屬、水青岡屬、石櫟屬、櫟屬；實際鑑定仍應比對標本照片。</p>
         </div>
         <figure class="morphology-plate">
-          <img src="./assets/images/fagaceae-four-genera-plate.png" alt="教學重建圖：栲屬、水青岡屬、石櫟屬與櫟屬的葉、花序、殼斗、堅果及剖面比較。" />
+          <img src="./assets/images/fagaceae-four-genera-plate.png" width="1536" height="1024" loading="lazy" decoding="async" alt="教學重建圖：栲屬、水青岡屬、石櫟屬與櫟屬的葉、花序、殼斗、堅果及剖面比較。" />
           <figcaption>AI 教學重建圖，不按比例。網頁文字是判讀依據，圖像只協助建立觀察位置。</figcaption>
         </figure>
         <div class="genus-grid" aria-label="四屬比較">
@@ -104,6 +111,16 @@
         </div>
         <div id="species-grid" class="species-grid section-shell" aria-live="polite"></div>
         <p id="no-results" class="no-results" hidden>找不到符合條件的物種，請調整搜尋文字或屬別。</p>
+      </section>
+
+      <section class="introduced section-shell" id="introduced" aria-labelledby="introduced-title">
+        <div class="section-heading">
+          <p class="kicker ink">NON-NATIVE APPENDIX</p>
+          <h2 id="introduced-title">歸化與栽培附錄</h2>
+          <p>TBN 另列出 6 種在臺灣有歸化或栽培紀錄的殼斗科植物。它們不計入原生 46 種，但在公園、校園、苗圃與人為環境中仍可能遇見。</p>
+        </div>
+        <div id="introduced-list" class="introduced-list"></div>
+        <p class="appendix-note">TBN 同時列有「金鱗栗屬」栽培紀錄，但目前分類樹未提供可納入本附錄的種階名稱，因此不自行推定物種。</p>
       </section>
 
       <section class="method section-shell" id="method" aria-labelledby="method-title">
@@ -148,5 +165,6 @@
     </dialog>
 
     <script type="module" src="./js/app.js"></script>
+    <noscript><p class="noscript">本圖鑑需要 JavaScript 才能顯示 46 種搜尋與物種詳情。</p></noscript>
   </body>
 </html>

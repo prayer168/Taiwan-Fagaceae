@@ -56,3 +56,12 @@ export const genusProfiles = {
   Lithocarpus: {flower:"雌雄同株，雄花多數成細長穗狀花序，通常具 8–12 枚雄蕊；每一總苞通常只有 1 朵雌花。",tree:"多為常綠中小至大喬木，葉革質；單一堅果與具鱗片殼斗是觀察重點。"},
   Quercus: {flower:"雌雄同株。雄花成下垂葇荑花序，多具 3–6 枚雄蕊；雌花小而無顯著花瓣，柱頭常扁平或瘤狀。",tree:"包含常綠與落葉喬木，也有岩生灌木；殼斗可分同心環型與覆瓦鱗片型。"}
 };
+
+export const introducedSpecies = [
+  {zh:"茅栗",sci:"Castanea crenata",en:"Japanese chestnut",genusZh:"栗屬",status:"外來栽培",uuid:"71962f74-ccfb-4ce7-9152-a15c4046916a"},
+  {zh:"板栗",sci:"Castanea mollissima",en:"Chinese chestnut",genusZh:"栗屬",status:"外來栽培",uuid:"7ff9cb9e-cb6f-4568-8ced-943067740dde"},
+  {zh:"麻櫟",sci:"Quercus acutissima",en:"Sawtooth oak",genusZh:"櫟屬",status:"外來歸化",uuid:"dae487b5-e6f5-4d09-97bb-7a1bd6a9be33"},
+  {zh:"槲樹",sci:"Quercus dentata",en:"Daimyo oak",genusZh:"櫟屬",status:"外來歸化",uuid:"9cf7525f-acf2-4c26-b06b-547647c66e62"},
+  {zh:"姥芽櫟",sci:"Quercus phillyreoides",en:"Ubame oak",genusZh:"櫟屬",status:"外來栽培",uuid:"7dc2969a-37cb-4827-84ad-a2a3f107f6fb"},
+  {zh:"西班牙栓皮櫟",sci:"Quercus suber",en:"Cork oak",genusZh:"櫟屬",status:"外來栽培",uuid:"73c4eddf-c02e-4d7c-815a-7b43b1f55995"}
+];

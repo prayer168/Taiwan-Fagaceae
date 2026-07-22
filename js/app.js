@@ -1,4 +1,4 @@
-import { species, genusProfiles } from "../data/species.js";
+import { species, genusProfiles, introducedSpecies } from "../data/species.js";
 
 const grid = document.querySelector("#species-grid");
 const search = document.querySelector("#search");
@@ -9,6 +9,7 @@ const dialog = document.querySelector("#species-dialog");
 const dialogContent = document.querySelector("#dialog-content");
 const closeButton = document.querySelector(".dialog-close");
 const filters = [...document.querySelectorAll("[data-genus]")];
+const introducedList = document.querySelector("#introduced-list");
 
 const riskOrder = { CR: 0, EN: 1, VU: 2, NT: 3, DD: 4, LC: 5, NE: 6 };
 const riskLabel = {
@@ -212,3 +213,9 @@ dialog.addEventListener("click", (event) => {
 dialog.addEventListener("close", () => lastTrigger?.focus());
 
 render();
+
+introducedList.innerHTML = introducedSpecies.map((item) => `<a class="introduced-item" href="https://www.tbn.org.tw/api/v25/taxon?uuid=${item.uuid}" target="_blank" rel="noreferrer">
+  <span><small>${escapeHtml(item.genusZh)}・${escapeHtml(item.status)}</small><strong>${escapeHtml(item.zh)}</strong></span>
+  <span><i>${escapeHtml(item.sci)}</i><small>${escapeHtml(item.en)}</small></span>
+  <b aria-hidden="true">↗</b>
+</a>`).join("");

@@ -25,6 +25,9 @@
   .scope-grid { grid-template-columns: 1fr; }
   .scope-grid article { min-height: auto; }
   .method-note { grid-template-columns: 1fr; }
+  .introduced-item { grid-template-columns: 1fr auto; gap: 1rem; }
+  .introduced-item span:nth-child(2) { grid-column: 1 / -1; grid-row: 2; }
+  .introduced-item b { grid-column: 2; grid-row: 1; }
   .dialog-hero { grid-template-columns: 1fr; }
   .dialog-visual { min-height: 280px; }
   .dialog-title { padding: 2.5rem 1.5rem; }

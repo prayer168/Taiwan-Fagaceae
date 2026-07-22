@@ -121,6 +121,17 @@ h1, h2, h3, p, dl, figure { margin-top: 0; }
 .card-action { margin: auto 0 0; padding-top: 1rem; color: rgb(255 255 255 / 72%); font-size: .72rem; }
 .no-results { margin: 4rem auto 0; text-align: center; color: rgb(255 255 255 / 60%); }
 
+.introduced { padding-block: 8rem 2rem; }
+.introduced-list { border-top: 1px solid var(--line); }
+.introduced-item { display: grid; grid-template-columns: 1fr 1fr auto; gap: 2rem; align-items: center; padding: 1.35rem .2rem; border-bottom: 1px solid var(--line); text-decoration: none; }
+.introduced-item span { display: grid; gap: .25rem; }
+.introduced-item small { color: var(--ink-2); font-size: .7rem; }
+.introduced-item strong { font-family: "Noto Serif TC", serif; font-size: 1.2rem; }
+.introduced-item i { font-family: Georgia, serif; }
+.introduced-item b { color: var(--forest-2); font-size: 1.2rem; transition: transform 160ms ease; }
+.introduced-item:hover b { transform: translate(.2rem, -.2rem); }
+.appendix-note { max-width: 760px; margin: 1.3rem 0 0 auto; color: var(--ink-2); font-size: .75rem; line-height: 1.7; }
+
 .method { padding-block: 8rem; }
 .scope-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
 .scope-grid article { min-height: 300px; padding: 2rem; border: 1px solid var(--line); background: var(--paper); }
@@ -143,6 +154,7 @@ h1, h2, h3, p, dl, figure { margin-top: 0; }
 footer { display: flex; justify-content: space-between; gap: 2rem; padding: 2rem max(1.5rem, calc((100% - 1240px) / 2)); background: #0c241f; color: rgb(255 255 255 / 48%); font-size: .7rem; }
 footer strong { color: white; font-family: "Noto Serif TC", serif; font-size: 1rem; }
 footer p { margin: .35rem 0 0; }
+.noscript { position: fixed; z-index: 50; inset: auto 1rem 1rem; margin: 0; padding: 1rem; color: white; background: #8b3f30; }
 
 dialog { width: min(1080px, calc(100% - 2rem)); max-height: calc(100vh - 2rem); overflow: auto; border: 0; border-radius: 1.25rem; padding: 0; color: var(--ink); background: var(--paper); box-shadow: 0 30px 100px rgb(0 0 0 / 40%); }
 dialog::backdrop { background: rgb(5 23 18 / 76%); backdrop-filter: blur(7px); }
