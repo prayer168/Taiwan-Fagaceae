@@ -1,0 +1,129 @@
+:root {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #17352b;
+  background: #f4f7ef;
+  font-synthesis: none;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  padding-bottom: 5.5rem;
+}
+
+button { font: inherit; }
+
+.skip-link {
+  position: fixed;
+  left: 1rem;
+  top: -5rem;
+  z-index: 10;
+  padding: 0.75rem 1rem;
+  color: white;
+  background: #17352b;
+}
+
+.skip-link:focus { top: 1rem; }
+
+.site-header,
+.tabs,
+main {
+  width: min(72rem, calc(100% - 2rem));
+  margin-inline: auto;
+}
+
+.site-header {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-block: 2rem 1rem;
+}
+
+h1, h2, p { margin-top: 0; }
+h1 { margin-bottom: 0; font-size: clamp(1.8rem, 5vw, 3rem); }
+h2 { font-size: clamp(1.5rem, 4vw, 2.25rem); }
+
+.eyebrow {
+  margin-bottom: 0.35rem;
+  color: #54725e;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.tabs {
+  display: flex;
+  gap: 0.5rem;
+  overflow-x: auto;
+  padding: 0.35rem 0 0.9rem;
+}
+
+.tab,
+.lesson-controls button,
+.primary-action {
+  min-height: 2.75rem;
+  border: 2px solid #54725e;
+  border-radius: 999px;
+  padding: 0.65rem 1rem;
+  color: #17352b;
+  background: white;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.tab.is-active,
+.primary-action {
+  color: white;
+  background: #276147;
+  border-color: #276147;
+}
+
+.tab:focus-visible,
+button:focus-visible {
+  outline: 3px solid #f2b84b;
+  outline-offset: 3px;
+}
+
+main { padding-block: 1rem; }
+
+.panel {
+  min-height: 22rem;
+  border: 1px solid #d5e0d2;
+  border-radius: 1.5rem;
+  padding: clamp(1.25rem, 4vw, 3rem);
+  background: white;
+  box-shadow: 0 1rem 3rem rgb(23 53 43 / 8%);
+}
+
+.overview {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin-block: 2rem;
+}
+
+.overview div {
+  padding: 1rem;
+  border-radius: 1rem;
+  background: #edf4e8;
+}
+
+.overview dt { font-weight: 700; }
+.overview dd { margin: 0.25rem 0 0; }
+
+.lesson-controls {
+  position: fixed;
+  inset: auto 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0.8rem;
+  border-top: 1px solid #d5e0d2;
+  background: rgb(244 247 239 / 96%);
+  backdrop-filter: blur(0.5rem);
+}
+
+button:disabled { cursor: not-allowed; opacity: 0.45; }
+

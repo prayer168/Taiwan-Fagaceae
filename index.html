@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="適合國小五年級的臺灣殼斗科互動學習教材。" />
+    <title>臺灣殼斗科探索</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/animation.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">跳至主要內容</a>
+    <header class="site-header">
+      <div>
+        <p class="eyebrow">國小五年級・自然科學</p>
+        <h1>臺灣殼斗科探索</h1>
+      </div>
+      <p id="progress-label" aria-live="polite">學習進度：1 / 7</p>
+    </header>
+
+    <nav class="tabs" aria-label="教材單元">
+      <button class="tab is-active" type="button" role="tab" aria-selected="true" aria-controls="mission">學習任務</button>
+      <button class="tab" type="button" role="tab" aria-selected="false" aria-controls="principles">特徵探索</button>
+      <button class="tab" type="button" role="tab" aria-selected="false" aria-controls="interaction">互動觀察</button>
+      <button class="tab" type="button" role="tab" aria-selected="false" aria-controls="animation">生命故事</button>
+      <button class="tab" type="button" role="tab" aria-selected="false" aria-controls="applications">生活應用</button>
+      <button class="tab" type="button" role="tab" aria-selected="false" aria-controls="quiz">闖關挑戰</button>
+      <button class="tab" type="button" role="tab" aria-selected="false" aria-controls="resources">自主學習</button>
+    </nav>
+
+    <main id="main-content" tabindex="-1">
+      <section id="mission" class="panel is-active" role="tabpanel">
+        <p class="eyebrow">學習任務</p>
+        <h2>從一顆橡實，認識臺灣森林</h2>
+        <p>這是已完成初始化的教材骨架。後續將補上經查證的內容、圖解、互動與評量。</p>
+        <dl class="overview">
+          <div><dt>適用對象</dt><dd>國小五年級</dd></div>
+          <div><dt>學習時間</dt><dd>約 40 分鐘</dd></div>
+          <div><dt>目前版本</dt><dd>v0.1.0</dd></div>
+        </dl>
+        <button class="primary-action" type="button" data-next>開始學習</button>
+      </section>
+
+      <section id="principles" class="panel" role="tabpanel" hidden><h2>特徵探索</h2><p>內容規劃中。</p></section>
+      <section id="interaction" class="panel" role="tabpanel" hidden><h2>互動觀察</h2><p>互動功能規劃中。</p></section>
+      <section id="animation" class="panel" role="tabpanel" hidden><h2>生命故事</h2><p>教學動畫規劃中。</p></section>
+      <section id="applications" class="panel" role="tabpanel" hidden><h2>生活應用</h2><p>生活情境規劃中。</p></section>
+      <section id="quiz" class="panel" role="tabpanel" hidden><h2>闖關挑戰</h2><p>題庫將依完成後的教材內容編寫。</p></section>
+      <section id="resources" class="panel" role="tabpanel" hidden><h2>自主學習</h2><p>可信賴資源查核中。</p></section>
+    </main>
+
+    <footer class="lesson-controls" aria-label="單元切換">
+      <button type="button" data-previous disabled>上一頁</button>
+      <button type="button" data-next>下一頁</button>
+    </footer>
+    <script type="module" src="./js/app.js"></script>
+  </body>
+</html>
+

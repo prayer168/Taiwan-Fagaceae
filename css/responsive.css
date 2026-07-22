@@ -1,0 +1,6 @@
+@media (max-width: 42rem) {
+  .site-header { align-items: start; flex-direction: column; }
+  .overview { grid-template-columns: 1fr; }
+  .panel { min-height: 26rem; }
+}
+
